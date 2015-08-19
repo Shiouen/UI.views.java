@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd0ceae4-b051-4868-b84f-5559169c699f" name="Default" comment="" />
+    <ignored path="StudentView.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="StudentView" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/xaml/XmlGenerator.java" />
+        <option value="$PROJECT_DIR$/src/XmlGenerator.java" />
+        <option value="$PROJECT_DIR$/src/AttributeMap.java" />
+        <option value="$PROJECT_DIR$/src/Attribute.java" />
+        <option value="$PROJECT_DIR$/src/XamlGenerator.java" />
+        <option value="$PROJECT_DIR$/src/xaml/Grid.java" />
+        <option value="$PROJECT_DIR$/res/xaml/GridWithRowsAndColums.xaml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/models.java" />
+        <option value="$PROJECT_DIR$/src/models/Student.java" />
+        <option value="$PROJECT_DIR$/src/xml/XmlGenerator.java" />
+        <option value="$PROJECT_DIR$/src/xaml/XamlGenerator.java" />
+        <option value="$PROJECT_DIR$/src/StudentView.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xaml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/UI HX/INF202B_StevensThaneeUI2/Java" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.16210938" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Olivier\Google Drive\Documents\KDG\Second year\Interfaces\Java\StudentView\lib" />
+      <recent name="C:\Users\Olivier\Google Drive\Documents\KDG\Second year\Interfaces\Java\StudentView\res\xml" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="xml" />
+      <recent name="xaml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StudentView">
+    <configuration default="false" name="StudentView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentView" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudentView" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.StudentView" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.StudentView" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd0ceae4-b051-4868-b84f-5559169c699f" name="Default" comment="" />
+      <created>1426332303254</created>
+      <option name="number" value="Default" />
+      <updated>1426332303254</updated>
+      <workItem from="1426332306778" duration="347000" />
+      <workItem from="1426413499787" duration="3091000" />
+      <workItem from="1426416608962" duration="31437000" />
+      <workItem from="1426501544499" duration="34854000" />
+      <workItem from="1426632104391" duration="1878000" />
+      <workItem from="1426681783825" duration="3631000" />
+      <workItem from="1426688334584" duration="111000" />
+      <workItem from="1440012535338" duration="711000" />
+      <workItem from="1440015764123" duration="9354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85414000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39895698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.74" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39895698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="42" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1224">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillFunctions#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="714">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1224">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillFunctions#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="714">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillFunctions#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="714">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1309">
+          <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillFunctions#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillFunctions#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="986">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="714">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillFunctions#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="884">
+          <caret line="67" column="77" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="646">
+          <caret line="77" column="80" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1411">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="561">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3328823" vertical-offset="1522" max-vertical-offset="21709">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17910" max-vertical-offset="36720">
+          <caret line="1138" column="13" selection-start-line="1138" selection-start-column="13" selection-end-line="1138" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="6230" max-vertical-offset="36414">
+          <caret line="411" column="11" selection-start-line="411" selection-start-column="11" selection-end-line="411" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/output/Format.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.24" vertical-offset="6091" max-vertical-offset="7633">
+          <caret line="380" column="18" selection-start-line="380" selection-start-column="18" selection-end-line="380" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/output/support/FormatStack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.44" vertical-offset="306" max-vertical-offset="3179">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/output/support/AbstractXMLOutputProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.24" vertical-offset="90" max-vertical-offset="7004">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/output/XMLOutputter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33164558" vertical-offset="3235" max-vertical-offset="5746">
+          <caret line="238" column="22" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="26749" max-vertical-offset="54553">
+          <caret line="1669" column="0" selection-start-line="1669" selection-start-column="0" selection-end-line="1669" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/input/SAXBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35044643" vertical-offset="6915" max-vertical-offset="7735">
+          <caret line="484" column="20" selection-start-line="484" selection-start-column="20" selection-end-line="484" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/results2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/xpath/XPathFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.76" vertical-offset="94" max-vertical-offset="816">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/Attribute.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.76" vertical-offset="1624" max-vertical-offset="4675">
+          <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jdom-2.0.5.jar!/org/jdom2/filter/Filters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31236443" vertical-offset="332" max-vertical-offset="1326">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/org/w3c/dom/ranges/Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="8" max-vertical-offset="6970">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentView.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UI HX/INF202B_StevensThaneeUI2/Java/UIOefeningen.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="739">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1751">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <element signature="method#getFirstStudent#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getAllStudents#0;class#StudentView#0" expanded="false" />
+            <element signature="method#getStudentResults#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentOverview#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillStudentView#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillGraph#0;class#StudentView#0" expanded="false" />
+            <element signature="e#7327#7328#0" expanded="true" />
+            <element signature="e#7434#7435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/results1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2533">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XmlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="697">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#getDocument#1;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#writeDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#readDocument#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContent#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchContents#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElement#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchElements#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttribute#0;class#XmlGenerator#0" expanded="false" />
+            <element signature="method#searchAttributes#0;class#XmlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="method#Student#1;class#Student#0" expanded="false" />
+            <element signature="method#fillResults#0;class#Student#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xaml/StudentView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2176" max-vertical-offset="3842">
+          <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4939107" vertical-offset="264" max-vertical-offset="1003">
+          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StudentView</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jdom-2.0.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
