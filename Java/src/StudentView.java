@@ -151,7 +151,7 @@ public class StudentView {
 
             // line lable
             String labelY = Double.toString(Double.parseDouble(y) - 18);
-            Element textblock = XamlGenerator.getTextBlock(Integer.toString(i), "10", "Normal", "Normal");
+            Element textblock = XamlGenerator.getTextBlock(Integer.toString(i), "10");
             textblock.setAttribute("Canvas.Left", "-10");
             textblock.setAttribute("Canvas.Top", labelY);
 
@@ -171,122 +171,127 @@ public class StudentView {
     private void fillStudentGraph() {
         double borderHeight;
         double borderWidth = 50;
-        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
-        double canvasWidth = Double.parseDouble(this.canvas.getAttributeValue("Width"));
         double textblockY = 0;
         double textblockX;
 
-        double score;
-        String bg;
+        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
+        double canvasWidth = Double.parseDouble(this.canvas.getAttributeValue("Width"));
+        double courseAmount = this.student.getCourses().size();
 
-        Element border;
-        Element textblock;
+        List<Element> borders = new ArrayList<>();
+        List<Element> lines = new ArrayList<>();
+        List<Element> textblocks = new ArrayList<>();
 
         // borderstack
-        Element stack = XamlGenerator.getStackPanel("15,0,15,0", "Horizontal");
-        stack.setAttribute("Canvas.Bottom", "0");
-        stack.setAttribute("Width", this.canvas.getAttributeValue("Width"));
-
-        // list of textblocks
-        List<Element> textblocks = new ArrayList<>();
+        Element borderStack = XamlGenerator.getStackPanel("15,0,15,0", "Horizontal");
+        borderStack.setAttribute("Canvas.Bottom", "0");
+        borderStack.setAttribute("Width", this.canvas.getAttributeValue("Width"));
+        XamlGenerator.setXName(borderStack, "CoursePanel");
 
         int i = 0;
         for (String course : this.student.getCourses()) {
             // get score for course
-            score = Double.parseDouble(this.student.getScore(course));
-
-            // set correct border bg color
-            if (score > 13) {
-                bg = "Green";
-            } else if (score < 10) {
-                bg = "Red";
-            } else { bg = "Yellow"; }
+            double score = Double.parseDouble(this.student.getScore(course));
 
             // get border and texblock heights/placement values
             borderHeight = score * canvasHeight / 20;
-            textblockX = (canvasWidth / this.student.getCourses().size() * i) + (canvasWidth / this.student.getCourses().size());
+            textblockX = (canvasWidth / courseAmount * i) + (canvasWidth / courseAmount);
             ++i;
 
             // border
-            border = XamlGenerator.getBorder("0", Double.toString(borderWidth), Double.toString(borderHeight), bg);
-
-            border.setAttribute("Opacity", "0.5");
-            border.setAttribute("Margin", "15,0,15,0");
-            border.setAttribute("VerticalAlignment", "Bottom");
-
-            Element effect = XamlGenerator.getEffect("Border");
-            effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
-            border.addContent(effect);
+            this.fillCourseBorder(course, borderWidth, borderHeight, borderStack);
 
             // textblock
-            textblock = XamlGenerator.getTextBlock(course, "16", "Normal", "Bold", "White");
+            this.fillCourseTextBlock(course, textblockX, textblockY, borderWidth, borderHeight, textblocks);
 
-            Element layoutTransform = XamlGenerator.getLayoutTransform("TextBlock");
-            layoutTransform.addContent(XamlGenerator.getRotateTransform("90"));
-            textblock.addContent(layoutTransform);
-
-            Element renderTransform = XamlGenerator.getRenderTransform("TextBlock");
-            renderTransform.addContent(XamlGenerator.getTranslateTransform(Double.toString(-(borderWidth)), "0"));
-            textblock.addContent(renderTransform);
-
-            textblock.setAttribute("Canvas.Bottom", Double.toString(textblockY));
-            textblock.setAttribute("Canvas.Left", Double.toString(textblockX));
-
-            textblock.setAttribute("TextWrapping","Wrap");
-            textblock.setAttribute("Width", Double.toString(borderHeight));
-            textblock.setAttribute("Height", Double.toString(borderWidth));
-            textblock.setAttribute("TextAlignment", "Center");
-
-            XamlGenerator.setXName(textblock, course.replaceAll(" ", "_"));
-
-            this.fillCourseMeanAndStandardDeviation(course, Double.toString(borderWidth),
-                    textblockX);
-
-            // add border and textblock to parents
-            stack.addContent(border);
-            textblocks.add(textblock);
-
-
+            // mean lines and standard deviations
+            this.fillCourseMeanAndStandardDeviation(course, borderWidth, textblockX, canvasHeight, lines, borders);
         }
 
-        XamlGenerator.setXName(stack, "CoursePanel");
-        this.canvas.addContent(stack);
+        this.canvas.addContent(borders);
+        this.canvas.addContent(lines);
+        this.canvas.addContent(borderStack);
         this.canvas.addContent(textblocks);
+
     }
-    private void fillCourseMeanAndStandardDeviation(String course, String borderWidth, double x2) {
-        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
+    private void fillCourseBorder(String course, double borderWidth, double borderHeight,
+                                  Element stack) {
+        // get score for course
+        double score = Double.parseDouble(this.student.getScore(course));
 
-        // mean and standard deviation calculations
-        List<String> results = this.getCourseResults(course);
-        String mean = Double.toString(MathUtilities.calculateMean(results));
-        double standardDeviation = MathUtilities.calculateStandardDeviation(results);
+        // set correct border bg color
+        String bg = "Yellow";
+        bg = score > 13 ? "Green" : bg;
+        bg = score < 10 ? "Red" : bg;
 
-        // mean line - adjust mean to canvas size
-        mean = Double.toString(Double.parseDouble(mean) * canvasHeight / 20);
-        // lines are drawn from top to bottom, while we work from bottom to top
-        mean = Double.toString(canvasHeight - Double.parseDouble(mean));
-        String x1 = Double.toString(x2 - Double.parseDouble(borderWidth));
-        Element line = XamlGenerator.getLine(x1, mean, Double.toString(x2), mean, "Black", "3");
+        // border
+        Element border = XamlGenerator.getBorder("0", Double.toString(borderWidth),
+                Double.toString(borderHeight), bg, "0.5");
 
-        this.canvas.addContent(line);
-
-        // standard deviation border
-        double borderHeight = standardDeviation * 2;
-        borderHeight = borderHeight * canvasHeight / 20;
-        borderHeight = borderHeight;
-
-        double borderX = x2;
-
-        Element border = XamlGenerator.getBorder("0", borderWidth, Double.toString(borderHeight), "Gray");
-        border.setAttribute("Opacity", "0.5");
-        border.setAttribute("Canvas.Bottom", Double.toString(canvasHeight - (Double.parseDouble(mean) + (standardDeviation * canvasHeight / 20))));
-        border.setAttribute("Canvas.Left", Double.toString(borderX - Double.parseDouble(borderWidth)));
+        border.setAttribute("Margin", "15,0,15,0");
+        border.setAttribute("VerticalAlignment", "Bottom");
 
         Element effect = XamlGenerator.getEffect("Border");
         effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
         border.addContent(effect);
 
-        this.canvas.addContent(border);
+        stack.addContent(border);
+    }
+    private void fillCourseMeanAndStandardDeviation(String course, double borderWidth, double x2, double canvasHeight,
+                                                    List<Element> lines, List<Element> borders) {
+        // mean and standard deviation calculations of results
+        List<String> results = this.getCourseResults(course);
+        double mean = MathUtilities.calculateMean(results);
+        double standardDeviation = MathUtilities.calculateStandardDeviation(results);
+
+        // mean line - adjust mean to canvas size
+        double y = mean * canvasHeight / 20;
+        // lines are drawn from top to bottom, while we work from bottom to top
+        y = canvasHeight - y;
+        double x1 = x2 - borderWidth;
+
+        Element line = XamlGenerator.getLine(Double.toString(x1), Double.toString(y),
+                Double.toString(x2), Double.toString(y), "Black", "3");
+        lines.add(line);
+
+        // standard deviation border
+        double borderHeight = standardDeviation * 2;
+        // adjust to canvas sizes
+        borderHeight = borderHeight * canvasHeight / 20;
+
+        Element border = XamlGenerator.getBorder("0", Double.toString(borderWidth),
+                Double.toString(borderHeight), "Gray", "0.5");
+        border.setAttribute("Canvas.Bottom",Double.toString(canvasHeight - (y + (standardDeviation * canvasHeight / 20))));
+        border.setAttribute("Canvas.Left", Double.toString(x1));
+
+        Element effect = XamlGenerator.getEffect("Border");
+        effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
+        border.addContent(effect);
+
+        borders.add(border);
+    }
+    private void fillCourseTextBlock(String course, double x, double y, double textblockWidth, double textblockHeight,
+                                     List<Element> textblocks) {
+        Element textblock = XamlGenerator.getTextBlock(course, "16", "White", "Wrap");
+
+        textblock.setAttribute("Width", Double.toString(textblockHeight));
+        textblock.setAttribute("Height", Double.toString(textblockWidth));
+        textblock.setAttribute("TextAlignment", "Center");
+
+        textblock.setAttribute("Canvas.Bottom", Double.toString(y));
+        textblock.setAttribute("Canvas.Left", Double.toString(x));
+
+        Element layoutTransform = XamlGenerator.getLayoutTransform("TextBlock");
+        layoutTransform.addContent(XamlGenerator.getRotateTransform("90"));
+        textblock.addContent(layoutTransform);
+
+        Element renderTransform = XamlGenerator.getRenderTransform("TextBlock");
+        renderTransform.addContent(XamlGenerator.getTranslateTransform(Double.toString(-(textblockWidth)), "0"));
+        textblock.addContent(renderTransform);
+
+        XamlGenerator.setXName(textblock, course.replaceAll(" ", "_"));
+
+        textblocks.add(textblock);
     }
 
     public void update(String student) {

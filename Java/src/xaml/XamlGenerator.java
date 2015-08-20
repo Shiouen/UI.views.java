@@ -42,6 +42,17 @@ public class XamlGenerator {
 
         return border;
     }
+    public static Element getBorder(String thickness, String width, String height, String bg, String opacity) {
+        Element border = new Element("Border", getDefaultNamespace());
+
+        border.setAttribute("BorderThickness", thickness);
+        border.setAttribute("Width", width);
+        border.setAttribute("Height", height);
+        border.setAttribute("Background", bg);
+        border.setAttribute("Opacity", opacity);
+
+        return border;
+    }
 
     /**
      * BRUSHES *
@@ -193,6 +204,14 @@ public class XamlGenerator {
     /**
      * TEXTBLOCK *
      */
+    public static Element getTextBlock(String text, String fontSize) {
+        Element tb = new Element("TextBlock", getDefaultNamespace());
+
+        tb.addContent(text);
+        tb.setAttribute("FontSize", fontSize);
+
+        return tb;
+    }
     public static Element getTextBlock(String text, String fontSize, String foreground) {
         Element tb = new Element("TextBlock", getDefaultNamespace());
 
@@ -202,24 +221,13 @@ public class XamlGenerator {
 
         return tb;
     }
-    public static Element getTextBlock(String text, String fontSize, String fontStyle, String fontWeight) {
+    public static Element getTextBlock(String text, String fontSize, String foreground, String textWrapping) {
         Element tb = new Element("TextBlock", getDefaultNamespace());
 
         tb.addContent(text);
         tb.setAttribute("FontSize", fontSize);
-        tb.setAttribute("FontStyle", fontStyle);
-        tb.setAttribute("FontWeight", fontWeight);
-
-        return tb;
-    }
-    public static Element getTextBlock(String text, String fontSize, String fontStyle, String fontWeight, String foreground) {
-        Element tb = new Element("TextBlock", getDefaultNamespace());
-
-        tb.addContent(text);
-        tb.setAttribute("FontSize", fontSize);
-        tb.setAttribute("FontStyle", fontStyle);
-        tb.setAttribute("FontWeight", fontWeight);
         tb.setAttribute("Foreground", foreground);
+        tb.setAttribute("TextWrapping", textWrapping);
 
         return tb;
     }

@@ -12,11 +12,9 @@ public class MathUtilities {
 
         return sum / (double) doubleStrings.size();
     }
-
     public static double calculateStandardDeviation(List<String> doubleStrings) {
         return Math.sqrt(calculateVariance(doubleStrings));
     }
-
     public static double calculateVariance(List<String> doubleStrings) {
         double mean = calculateMean(doubleStrings);
 
