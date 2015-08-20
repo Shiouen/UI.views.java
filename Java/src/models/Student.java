@@ -14,14 +14,11 @@ public class Student {
 
     private Student() { }
     public Student(String name, List<Element> results) {
+        this.name = name;
+
         this.results = new HashMap<>();
         this.courses = new ArrayList<>();
 
-        this.name = name;
-        this.fillResults(results);
-    }
-
-    private void fillResults(List<Element> results) {
         for (Element result : results) {
             String course = result.getAttribute("course").getValue();
             String score = result.getValue();

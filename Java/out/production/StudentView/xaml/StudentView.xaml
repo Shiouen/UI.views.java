@@ -86,7 +86,7 @@
           </Border.Effect>
         </Border>
       </StackPanel>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="80.0" TextWrapping="Wrap" Width="198.0" Height="50.0" TextAlignment="Center" x:Name="Computersystemen_1">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="80.0" TextWrapping="Wrap" Width="198.0" Height="50.0" TextAlignment="Center" x:Name="Computersystemen_1">
         Computersystemen 1
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -95,7 +95,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="160.0" TextWrapping="Wrap" Width="368.80000000000007" Height="50.0" TextAlignment="Center" x:Name="Databanken_1">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="160.0" TextWrapping="Wrap" Width="368.80000000000007" Height="50.0" TextAlignment="Center" x:Name="Databanken_1">
         Databanken 1
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -104,7 +104,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="240.0" TextWrapping="Wrap" Width="244.0" Height="50.0" TextAlignment="Center" x:Name="Engels">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="240.0" TextWrapping="Wrap" Width="244.0" Height="50.0" TextAlignment="Center" x:Name="Engels">
         Engels
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -113,7 +113,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="320.0" TextWrapping="Wrap" Width="190.0" Height="50.0" TextAlignment="Center" x:Name="Frans">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="320.0" TextWrapping="Wrap" Width="190.0" Height="50.0" TextAlignment="Center" x:Name="Frans">
         Frans
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -122,7 +122,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="400.0" TextWrapping="Wrap" Width="162.0" Height="50.0" TextAlignment="Center" x:Name="Boekhoudkundig_inzicht">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="400.0" TextWrapping="Wrap" Width="162.0" Height="50.0" TextAlignment="Center" x:Name="Boekhoudkundig_inzicht">
         Boekhoudkundig inzicht
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -131,7 +131,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="480.0" TextWrapping="Wrap" Width="316.0" Height="50.0" TextAlignment="Center" x:Name="Netwerken1">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="480.0" TextWrapping="Wrap" Width="316.0" Height="50.0" TextAlignment="Center" x:Name="Netwerken1">
         Netwerken1
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -140,7 +140,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="560.0" TextWrapping="Wrap" Width="188.0" Height="50.0" TextAlignment="Center" x:Name="Programmeren_1">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="560.0" TextWrapping="Wrap" Width="188.0" Height="50.0" TextAlignment="Center" x:Name="Programmeren_1">
         Programmeren 1
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -149,7 +149,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="640.0" TextWrapping="Wrap" Width="134.0" Height="50.0" TextAlignment="Center" x:Name="Software_engineering_1">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="640.0" TextWrapping="Wrap" Width="134.0" Height="50.0" TextAlignment="Center" x:Name="Software_engineering_1">
         Software engineering 1
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -158,7 +158,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="720.0" TextWrapping="Wrap" Width="276.0" Height="50.0" TextAlignment="Center" x:Name="User_interfaces_1">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="720.0" TextWrapping="Wrap" Width="276.0" Height="50.0" TextAlignment="Center" x:Name="User_interfaces_1">
         User interfaces 1
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
@@ -167,7 +167,7 @@
           <TranslateTransform X="-50.0" Y="0" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="800.0" TextWrapping="Wrap" Width="166.00000000000003" Height="50.0" TextAlignment="Center" x:Name="Management_accounting">
+      <TextBlock FontSize="18.5" FontStyle="Normal" FontWeight="Bold" Foreground="White" Canvas.Bottom="0.0" Canvas.Left="800.0" TextWrapping="Wrap" Width="166.00000000000003" Height="50.0" TextAlignment="Center" x:Name="Management_accounting">
         Management accounting
         <TextBlock.LayoutTransform>
           <RotateTransform Angle="90" />
