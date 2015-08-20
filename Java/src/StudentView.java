@@ -1,13 +1,15 @@
-import com.sun.org.apache.xalan.internal.XalanConstants;
-import models.Student;
-import org.jdom2.Document;
-import org.jdom2.Element;
-import xaml.XamlGenerator;
-import xml.XmlGenerator;
-
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
+
+import org.jdom2.Document;
+import org.jdom2.Element;
+
+import utilities.MathUtilities;
+import models.Student;
+import xaml.XamlGenerator;
+import xml.XmlGenerator;
 
 public class StudentView {
     private Document results;
@@ -25,7 +27,7 @@ public class StudentView {
 
         // get first student data
         String firstStudent = this.getFirstStudent();
-        this.student = new Student(firstStudent, this.getResults(firstStudent));
+        this.student = new Student(firstStudent, this.getStudentResults(firstStudent));
 
         this.init();
     }
@@ -38,9 +40,14 @@ public class StudentView {
         List<String> students = XmlGenerator.searchAttributes("//Students/Student/@FullName", this.file);
         return students;
     }
-    private List<Element> getResults(String studentName) {
-        String xpath = "//Student[@FullName = \"" + studentName + "\"]//Result";
+    private List<Element> getStudentResults(String name) {
+        String xpath = "//Student[@FullName = \"" + name + "\"]//Result";
         List<Element> results = XmlGenerator.searchElements(xpath, this.file);
+        return results;
+    }
+    private List<String> getCourseResults(String name) {
+        String xpath = String.format("//Result[@course = \"%s\"]", name);
+        List<String> results = XmlGenerator.searchContents(xpath, this.file);
         return results;
     }
 
@@ -200,8 +207,6 @@ public class StudentView {
             textblockX = (canvasWidth / this.student.getCourses().size() * i) + (canvasWidth / this.student.getCourses().size());
             ++i;
 
-            System.out.println(borderHeight);
-
             // border
             border = XamlGenerator.getBorder("0", Double.toString(borderWidth), Double.toString(borderHeight), bg);
 
@@ -212,7 +217,6 @@ public class StudentView {
             Element effect = XamlGenerator.getEffect("Border");
             effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
             border.addContent(effect);
-
 
             // textblock
             textblock = XamlGenerator.getTextBlock(course, "16", "Normal", "Bold", "White");
@@ -235,18 +239,58 @@ public class StudentView {
 
             XamlGenerator.setXName(textblock, course.replaceAll(" ", "_"));
 
+            this.fillCourseMeanAndStandardDeviation(course, Double.toString(borderWidth),
+                    textblockX);
+
             // add border and textblock to parents
             stack.addContent(border);
             textblocks.add(textblock);
+
+
         }
 
         XamlGenerator.setXName(stack, "CoursePanel");
         this.canvas.addContent(stack);
         this.canvas.addContent(textblocks);
     }
+    private void fillCourseMeanAndStandardDeviation(String course, String borderWidth, double x2) {
+        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
+
+        // mean and standard deviation calculations
+        List<String> results = this.getCourseResults(course);
+        String mean = Double.toString(MathUtilities.calculateMean(results));
+        double standardDeviation = MathUtilities.calculateStandardDeviation(results);
+
+        // mean line - adjust mean to canvas size
+        mean = Double.toString(Double.parseDouble(mean) * canvasHeight / 20);
+        // lines are drawn from top to bottom, while we work from bottom to top
+        mean = Double.toString(canvasHeight - Double.parseDouble(mean));
+        String x1 = Double.toString(x2 - Double.parseDouble(borderWidth));
+        Element line = XamlGenerator.getLine(x1, mean, Double.toString(x2), mean, "Black", "3");
+
+        this.canvas.addContent(line);
+
+        // standard deviation border
+        double borderHeight = standardDeviation * 2;
+        borderHeight = borderHeight * canvasHeight / 20;
+        borderHeight = borderHeight;
+
+        double borderX = x2;
+
+        Element border = XamlGenerator.getBorder("0", borderWidth, Double.toString(borderHeight), "Gray");
+        border.setAttribute("Opacity", "0.5");
+        border.setAttribute("Canvas.Bottom", Double.toString(canvasHeight - (Double.parseDouble(mean) + (standardDeviation * canvasHeight / 20))));
+        border.setAttribute("Canvas.Left", Double.toString(borderX - Double.parseDouble(borderWidth)));
+
+        Element effect = XamlGenerator.getEffect("Border");
+        effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
+        border.addContent(effect);
+
+        this.canvas.addContent(border);
+    }
 
     public void update(String student) {
-        this.student = new Student(student, this.getResults(student));
+        this.student = new Student(student, this.getStudentResults(student));
         this.init();
         this.write();
     }
