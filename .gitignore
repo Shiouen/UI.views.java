@@ -4,9 +4,9 @@
 .mtj.tmp/
 
 # Package Files #
-# Include jars if they’re in the lib directory
-!/lib/*/*.jar
 *.jar
+# Include jars if they’re in the lib directory
+!/Java/lib/*.jar
 *.war
 *.ear
 
