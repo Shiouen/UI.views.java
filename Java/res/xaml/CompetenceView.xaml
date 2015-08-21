@@ -14,6 +14,7 @@
     <Viewbox Grid.Column="1" Grid.Row="1" x:Name="CompetenceGraph">
       <Canvas Width="700" Height="700" Margin="40" />
     </Viewbox>
+    <TextBlock FontSize="32" FontStyle="Normal" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0" x:Name="StudentNameBlock">hihihi</TextBlock>
     <ScrollViewer Grid.Column="0" Grid.Row="1" x:Name="StudentScroller">
       <StackPanel Margin="5" Orientation="Vertical">
         <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">

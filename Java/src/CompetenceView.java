@@ -18,13 +18,24 @@ public class CompetenceView {
     private Element grid;
     private Element canvas;
 
-    private CompetenceView() { }
+    private Student student;
+
     public CompetenceView(String file) {
         this.file = file;
         this.competences = XmlGenerator.readDocument(this.file, "xml");
 
         this.init();
     }
+
+
+/*    private String getFirstStudent() {
+        String student = XmlGenerator.searchAttribute("//Student/@FullName", this.file);
+        return student;
+    }
+    private List<String> getStudents() {
+        List<String> students = XmlGenerator.searchAttributes("//Students/Student/@FullName", this.file);
+        return students;
+    }*/
 
     private void init() {
         // page
@@ -51,9 +62,20 @@ public class CompetenceView {
 
         this.page.addContent(this.grid);
 
+        this.generateStudentBlock();
         this.generateStudentScrollViewer();
     }
 
+    private void generateStudentBlock() {
+        // student name
+        Element textblock = XamlGenerator.getTextBlock("hihihi", "32", "Normal", "DemiBold", "Center", "Top");
+
+        textblock.setAttribute("Grid.Column", "1");
+        textblock.setAttribute("Grid.Row", "0");
+
+        XamlGenerator.setXName(textblock, "StudentNameBlock");
+        this.grid.addContent(textblock);
+    }
     private void generateStudentScrollViewer() {
         Element scrollViewer = XamlGenerator.getScrollViewer();
 

@@ -20,9 +20,9 @@ public class StudentView {
 
     private Student student;
 
-    public StudentView(String name) {
+    public StudentView(String file) {
         // xml sources
-        this.file = name;
+        this.file = file;
         this.results = XmlGenerator.readDocument(this.file, "xml");
 
         // get first student data
@@ -171,8 +171,10 @@ public class StudentView {
     private void generateStudentBlock() {
         // student name
         Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "DemiBold", "Center", "Top");
+
         textblock.setAttribute("Grid.Column", "1");
         textblock.setAttribute("Grid.Row", "0");
+
         XamlGenerator.setXName(textblock, "StudentNameBlock");
         this.grid.addContent(textblock);
     }
