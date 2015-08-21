@@ -49,8 +49,8 @@ public class CompetenceView {
         XmlGenerator.writeDocument(XmlGenerator.getDocument(this.grid), "CompetenceView.xaml", "xaml");
     }
 
-/*    public static void main(String[] args) {
+    public static void main(String[] args) {
         CompetenceView cv = new CompetenceView("competences.xml");
         cv.write();
-    }*/
+    }
 }
