@@ -12,7 +12,52 @@
       <ColumnDefinition Width="10*" />
     </Grid.ColumnDefinitions>
     <Viewbox Grid.Column="1" Grid.Row="1" x:Name="CompetenceGraph">
-      <Canvas Width="700" Height="700" Margin="40" />
+      <Canvas Width="700" Height="700" Margin="40">
+        <Line X1="35.0" Y1="350.0" X2="665.0" Y2="350.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="350.0" Y1="35.0" X2="350.0" Y2="665.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="35.0" Y1="360.0" X2="35.0" Y2="340.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="66.5" Y1="356.0" X2="66.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="98.0" Y1="356.0" X2="98.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="129.5" Y1="356.0" X2="129.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="161.0" Y1="356.0" X2="161.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="192.5" Y1="356.0" X2="192.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="224.0" Y1="356.0" X2="224.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="255.5" Y1="356.0" X2="255.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="287.0" Y1="356.0" X2="287.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="318.5" Y1="356.0" X2="318.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="350.0" Y1="360.0" X2="350.0" Y2="340.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="381.5" Y1="356.0" X2="381.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="413.0" Y1="356.0" X2="413.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="444.5" Y1="356.0" X2="444.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="476.0" Y1="356.0" X2="476.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="507.5" Y1="356.0" X2="507.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="539.0" Y1="356.0" X2="539.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="570.5" Y1="356.0" X2="570.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="602.0" Y1="356.0" X2="602.0" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="633.5" Y1="356.0" X2="633.5" Y2="344.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="665.0" Y1="360.0" X2="665.0" Y2="340.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="360.0" Y1="35.0" X2="340.0" Y2="35.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="66.5" X2="344.0" Y2="66.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="98.0" X2="344.0" Y2="98.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="129.5" X2="344.0" Y2="129.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="161.0" X2="344.0" Y2="161.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="192.5" X2="344.0" Y2="192.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="224.0" X2="344.0" Y2="224.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="255.5" X2="344.0" Y2="255.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="287.0" X2="344.0" Y2="287.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="318.5" X2="344.0" Y2="318.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="360.0" Y1="350.0" X2="340.0" Y2="350.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="381.5" X2="344.0" Y2="381.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="413.0" X2="344.0" Y2="413.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="444.5" X2="344.0" Y2="444.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="476.0" X2="344.0" Y2="476.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="507.5" X2="344.0" Y2="507.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="539.0" X2="344.0" Y2="539.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="570.5" X2="344.0" Y2="570.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="602.0" X2="344.0" Y2="602.0" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="356.0" Y1="633.5" X2="344.0" Y2="633.5" Stroke="Black" StrokeThickness="1.5" />
+        <Line X1="360.0" Y1="665.0" X2="340.0" Y2="665.0" Stroke="Black" StrokeThickness="1.5" />
+      </Canvas>
     </Viewbox>
     <TextBlock FontSize="32" FontStyle="Normal" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0" x:Name="StudentNameBlock">hihihi</TextBlock>
     <ScrollViewer Grid.Column="0" Grid.Row="1" x:Name="StudentScroller">
