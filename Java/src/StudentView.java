@@ -181,15 +181,10 @@ public class StudentView {
         double canvasWidth = Double.parseDouble(this.canvas.getAttributeValue("Width"));
         double courseAmount = this.student.getCourses().size();
 
-        List<Element> borders = new ArrayList<>();
+        List<Element> courseBorders = new ArrayList<>();
+        List<Element> deviationBorders = new ArrayList<>();
         List<Element> lines = new ArrayList<>();
         List<Element> textblocks = new ArrayList<>();
-
-        // borderstack
-        Element borderStack = XamlGenerator.getStackPanel("15,0,15,0", "Horizontal");
-        borderStack.setAttribute("Canvas.Bottom", "0");
-        borderStack.setAttribute("Width", this.canvas.getAttributeValue("Width"));
-        XamlGenerator.setXName(borderStack, "CoursePanel");
 
         int i = 0;
         for (String course : this.student.getCourses()) {
@@ -201,44 +196,42 @@ public class StudentView {
             textblockX = (canvasWidth / courseAmount * i) + (canvasWidth / courseAmount);
             ++i;
 
-            // border
-            this.fillCourseBorder(course, borderWidth, borderHeight, borderStack);
+            // course border
+            this.fillCourseBorder(score, borderWidth, borderHeight, textblockX, 0, canvasHeight, courseBorders);
 
             // textblock
             this.fillCourseTextBlock(course, textblockX, textblockY, borderWidth, borderHeight, textblocks);
 
-            // mean lines and standard deviations
-            this.fillCourseMeanAndStandardDeviation(course, borderWidth, textblockX, canvasHeight, lines, borders);
+            // mean lines and standard deviation borders
+            this.fillCourseMeanAndStandardDeviation(course, borderWidth, textblockX, canvasHeight, lines, deviationBorders);
         }
 
-        this.canvas.addContent(borders);
+        this.canvas.addContent(deviationBorders);
+        this.canvas.addContent(courseBorders);
         this.canvas.addContent(lines);
-        this.canvas.addContent(borderStack);
         this.canvas.addContent(textblocks);
 
     }
-    private void fillCourseBorder(String course, double borderWidth, double borderHeight,
-                                  Element stack) {
-        // get score for course
-        double score = Double.parseDouble(this.student.getScore(course));
-
+    private void fillCourseBorder(double score, double borderWidth, double borderHeight, double x2, double y,
+                                  double canvasHeight, List<Element> borders) {
         // set correct border bg color
         String bg = "Yellow";
         bg = score > 13 ? "Green" : bg;
         bg = score < 10 ? "Red" : bg;
 
+        double x1 = x2 - borderWidth;
+
         // border
         Element border = XamlGenerator.getBorder("0", Double.toString(borderWidth),
                 Double.toString(borderHeight), bg, "0.5");
-
-        border.setAttribute("Margin", "15,0,15,0");
-        border.setAttribute("VerticalAlignment", "Bottom");
+        border.setAttribute("Canvas.Bottom", Double.toString(y));
+        border.setAttribute("Canvas.Left", Double.toString(x1));
 
         Element effect = XamlGenerator.getEffect("Border");
         effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
         border.addContent(effect);
 
-        stack.addContent(border);
+        borders.add(border);
     }
     private void fillCourseMeanAndStandardDeviation(String course, double borderWidth, double x2, double canvasHeight,
                                                     List<Element> lines, List<Element> borders) {
@@ -309,6 +302,5 @@ public class StudentView {
     public static void main(String[] args) {
         StudentView sv = new StudentView("results1.xml");
         sv.write();
-        sv.update("John Black");
     }
 }
