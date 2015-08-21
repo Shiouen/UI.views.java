@@ -12,27 +12,27 @@
   </Grid.ColumnDefinitions>
   <Viewbox Grid.Column="1" Grid.Row="1" x:Name="StudentGraph">
     <Canvas Width="800" Height="400" Margin="40">
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="-18.0">20</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="402.5">20</TextBlock>
       <Line X1="0" Y1="0.0" X2="800" Y2="0.0" Stroke="Gray" StrokeThickness="3" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="22.0">18</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="362.5">18</TextBlock>
       <Line X1="0" Y1="40.0" X2="800" Y2="40.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="62.0">16</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="322.5">16</TextBlock>
       <Line X1="0" Y1="80.0" X2="800" Y2="80.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="102.0">14</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="282.5">14</TextBlock>
       <Line X1="0" Y1="120.0" X2="800" Y2="120.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="142.0">12</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="242.5">12</TextBlock>
       <Line X1="0" Y1="160.0" X2="800" Y2="160.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="182.0">10</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="202.5">10</TextBlock>
       <Line X1="0" Y1="200.0" X2="800" Y2="200.0" Stroke="Gray" StrokeThickness="3" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="222.0">8</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="162.5">8</TextBlock>
       <Line X1="0" Y1="240.0" X2="800" Y2="240.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="262.0">6</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="122.5">6</TextBlock>
       <Line X1="0" Y1="280.0" X2="800" Y2="280.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="302.0">4</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="82.5">4</TextBlock>
       <Line X1="0" Y1="320.0" X2="800" Y2="320.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="342.0">2</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="42.5">2</TextBlock>
       <Line X1="0" Y1="360.0" X2="800" Y2="360.0" Stroke="Gray" StrokeThickness="1" />
-      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Top="382.0">0</TextBlock>
+      <TextBlock FontSize="10" Canvas.Left="-10" Canvas.Bottom="2.5">0</TextBlock>
       <Line X1="0" Y1="400.0" X2="800" Y2="400.0" Stroke="Gray" StrokeThickness="3" />
       <Border BorderThickness="0" Width="50.0" Height="226.21955903256662" Background="Gray" Opacity="0.5" Canvas.Bottom="76.29022048371672" Canvas.Left="30.0">
         <Border.Effect>

@@ -94,9 +94,9 @@ public class StudentView {
             border.setAttribute("Margin", "0,0,0,8.5");
 
             Element effect = XamlGenerator.getEffect("Border");
-            effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0")); // moet 15 radius zijn van opdracht
-
+            effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0"));
             border.addContent(effect);
+
             stack.addContent(border);
         }
 
@@ -121,9 +121,9 @@ public class StudentView {
             border.setAttribute("Margin", "0,0,8.5,0");
 
             Element effect = XamlGenerator.getEffect("Border");
-            effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0")); // radius moet 15 zijn volgens opdracht
-
+            effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0"));
             border.addContent(effect);
+
             stack.addContent(border);
         }
 
@@ -134,6 +134,8 @@ public class StudentView {
         this.grid.addContent(stack);
     }
     private void generateGraphStructure() {
+        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
+
         // graph lines
         String x1 = "0";
         String x2 = this.canvas.getAttributeValue("Width");
@@ -141,19 +143,20 @@ public class StudentView {
 
         Element line;
 
-        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
         for (int i = 20;i >= 0;--i) {
             if (i % 2 != 0) { continue; }
 
             // line
-            y = Double.toString(canvasHeight - (canvasHeight / 20 * i)); // as if (0,0) of canvas was bottom left
+            // from bottom to top - bottom left is (0, 0) if canvasheight - value
+            y = Double.toString(canvasHeight - (canvasHeight / 20 * i));
             line = XamlGenerator.getLine(x1, y, x2, y, "Gray", (i % 10 > 0) ? "1" : "3");
 
             // line lable
-            String labelY = Double.toString(Double.parseDouble(y) - 18);
+            // from top to bottom
+            String labelY = Double.toString((canvasHeight / 20 * i) + 2.5);
             Element textblock = XamlGenerator.getTextBlock(Integer.toString(i), "10");
             textblock.setAttribute("Canvas.Left", "-10");
-            textblock.setAttribute("Canvas.Top", labelY);
+            textblock.setAttribute("Canvas.Bottom", labelY);
 
             this.canvas.addContent(textblock);
             this.canvas.addContent(line);
@@ -306,5 +309,6 @@ public class StudentView {
     public static void main(String[] args) {
         StudentView sv = new StudentView("results1.xml");
         sv.write();
+        sv.update("John Black");
     }
 }
