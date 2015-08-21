@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.DoubleSummaryStatistics;
 import java.util.List;
 
 import org.jdom2.Document;
@@ -15,6 +14,7 @@ public class StudentView {
     private Document results;
     private String file;
 
+    private Element page;
     private Element grid;
     private Element canvas;
 
@@ -52,6 +52,10 @@ public class StudentView {
     }
 
     private void init() {
+        // page
+        this.page = XamlGenerator.getPage();
+        XamlGenerator.setXNamespace(this.page);
+
         // grid
         String[] rowSizes = { "50", "1*", "40" };
         String[] colSizes = { "110", "8*", "1*" };
@@ -69,6 +73,8 @@ public class StudentView {
         viewbox.addContent(this.canvas);
         XamlGenerator.setXName(viewbox, "StudentGraph");
         this.grid.addContent(viewbox);
+
+        this.page.addContent(this.grid);
 
         this.generateFunctionButtons();
         this.generateGraphStructure();
@@ -296,7 +302,7 @@ public class StudentView {
         this.write();
     }
     public void write() {
-        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.grid), "StudentView.xaml", "xaml");
+        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.page), "StudentView.xaml", "xaml");
     }
 
     public static void main(String[] args) {

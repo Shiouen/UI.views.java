@@ -3,6 +3,8 @@ package xaml;
 import org.jdom2.Element;
 import org.jdom2.Namespace;
 
+import javax.lang.model.element.Name;
+
 public class XamlGenerator {
     private XamlGenerator() { }
 
@@ -120,7 +122,6 @@ public class XamlGenerator {
      */
     public static Element getGrid() {
         Element grid = new Element("Grid", getDefaultNamespace());
-        grid.addNamespaceDeclaration(getXNamespace());
         return grid;
     }
     public static Element getGrid(String[] rowSizes, String[] colSizes, Boolean showGridLines) {
@@ -179,6 +180,9 @@ public class XamlGenerator {
     /**
      * NAMESPACES *
      */
+    public static void setXNamespace(Element control) {
+        control.addNamespaceDeclaration(getXNamespace());
+    }
     public static Namespace getDefaultNamespace() {
         return Namespace.getNamespace("http://schemas.microsoft.com/winfx/2006/xaml/presentation");
     }
@@ -187,6 +191,13 @@ public class XamlGenerator {
     }
     public static Namespace getNavigationNamespace(){
         return Namespace.getNamespace("navigation","clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation");
+    }
+
+    /**
+     * PAGE *
+     */
+    public static Element getPage() {
+        return new Element("Page", getDefaultNamespace());
     }
 
     /**
