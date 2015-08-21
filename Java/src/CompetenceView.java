@@ -14,6 +14,7 @@ public class CompetenceView {
     private Document competences;
     private String file;
 
+    private Element page;
     private Element grid;
     private Element canvas;
 
@@ -26,6 +27,10 @@ public class CompetenceView {
     }
 
     private void init() {
+        // page
+        this.page = XamlGenerator.getPage();
+        XamlGenerator.setXNamespace(this.page);
+
         // grid
         String[] rowSizes = {"50", "1*", "40"};
         String[] colSizes = {"200", "80*", "10*"};
@@ -37,16 +42,18 @@ public class CompetenceView {
         viewbox.setAttribute("Grid.Row", "1");
 
         // canvas
-        this.canvas = XamlGenerator.getCanvas("800", "400");
+        this.canvas = XamlGenerator.getCanvas("700", "700");
         this.canvas.setAttribute("Margin", "40");
 
         viewbox.addContent(this.canvas);
-        XamlGenerator.setXName(viewbox, "StudentGraph");
+        XamlGenerator.setXName(viewbox, "CompetenceGraph");
         this.grid.addContent(viewbox);
+
+        this.page.addContent(this.grid);
     }
 
     public void write() {
-        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.grid), "CompetenceView.xaml", "xaml");
+        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.page), "CompetenceView.xaml", "xaml");
     }
 
     public static void main(String[] args) {
