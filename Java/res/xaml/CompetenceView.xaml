@@ -57,19 +57,251 @@
         <Line X1="356.0" Y1="602.0" X2="344.0" Y2="602.0" Stroke="Black" StrokeThickness="1.5" />
         <Line X1="356.0" Y1="633.5" X2="344.0" Y2="633.5" Stroke="Black" StrokeThickness="1.5" />
         <Line X1="360.0" Y1="665.0" X2="340.0" Y2="665.0" Stroke="Black" StrokeThickness="1.5" />
+        <TextBlock FontSize="40" Canvas.Bottom="665.0" Canvas.Left="260.0">Communiceren</TextBlock>
+        <TextBlock FontSize="40" Canvas.Bottom="290.0" Canvas.Left="58.333333333333336">Management</TextBlock>
+        <TextBlock FontSize="40" Canvas.Bottom="-10.0" Canvas.Left="260.0">Implementatie</TextBlock>
+        <TextBlock FontSize="40" Canvas.Bottom="290.0" Canvas.Left="476.1904761904762">Analyse en Ontwerp</TextBlock>
       </Canvas>
     </Viewbox>
-    <TextBlock FontSize="32" FontStyle="Normal" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0" x:Name="StudentNameBlock">hihihi</TextBlock>
+    <TextBlock FontSize="32" FontStyle="Normal" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0" x:Name="StudentNameBlock">Russell Lawrence</TextBlock>
     <ScrollViewer Grid.Column="0" Grid.Row="1" x:Name="StudentScroller">
       <StackPanel Margin="5" Orientation="Vertical">
         <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
-          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Student1</TextBlock>
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Russell Lawrence</TextBlock>
           <Border.Effect>
             <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
           </Border.Effect>
         </Border>
         <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
-          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Student2</TextBlock>
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Heather Martin</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Alice Daniels</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Louise Stephens</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Ryan Fernandez</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Nancy Gibson</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Judy Ellis</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Mark Carroll</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Chris Lawrence</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Russell Hicks</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Jennifer Wright</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Joseph Hamilton</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Kathryn Arnold</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Mildred Peterson</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Victor Snyder</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Tina Morris</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Thomas Stone</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Todd Brooks</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Kelly Mitchell</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Keith Wallace</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Russell Barnes</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Patricia West</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Lois Oliver</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Marilyn Williamson</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Harold Reyes</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Sharon Frazier</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Harold Allen</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Victor Harrison</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Margaret Romero</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Tina Flores</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Raymond Johnston</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Raymond Long</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Julie Griffin</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Virginia Weaver</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Gregory Andrews</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Frances Oliver</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Ryan Taylor</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Nicole Cunningham</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Eugene Burns</TextBlock>
+          <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
+          </Border.Effect>
+        </Border>
+        <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
+          <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Lori Coleman</TextBlock>
           <Border.Effect>
             <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
           </Border.Effect>

@@ -2,16 +2,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.jdom2.Document;
 import org.jdom2.Element;
 
 import models.Student;
 import utilities.MathUtilities;
+import utilities.StudentUtilities;
 import xaml.XamlGenerator;
 import xml.XmlGenerator;
 
 public class StudentView {
-    private Document results;
     private String file;
 
     private Element page;
@@ -23,32 +22,12 @@ public class StudentView {
     public StudentView(String file) {
         // xml sources
         this.file = file;
-        this.results = XmlGenerator.readDocument(this.file, "xml");
 
         // get first student data
-        String firstStudent = this.getFirstStudent();
-        this.student = new Student(firstStudent, this.getStudentResults(firstStudent));
+        String firstStudent = StudentUtilities.getFirstStudent(this.file);
+        this.student = new Student(firstStudent, StudentUtilities.getStudentResults(firstStudent, this.file));
 
         this.init();
-    }
-
-    private String getFirstStudent() {
-        String student = XmlGenerator.searchAttribute("//Student/@FullName", this.file);
-        return student;
-    }
-    private List<String> getStudents() {
-        List<String> students = XmlGenerator.searchAttributes("//Students/Student/@FullName", this.file);
-        return students;
-    }
-    private List<Element> getStudentResults(String name) {
-        String xpath = "//Student[@FullName = \"" + name + "\"]//Result";
-        List<Element> results = XmlGenerator.searchElements(xpath, this.file);
-        return results;
-    }
-    private List<String> getCourseResults(String name) {
-        String xpath = String.format("//Result[@course = \"%s\"]", name);
-        List<String> results = XmlGenerator.searchContents(xpath, this.file);
-        return results;
     }
 
     private void init() {
@@ -90,7 +69,7 @@ public class StudentView {
         Element border;
         Element textblock;
 
-        for (String student : this.getStudents()) {
+        for (String student : StudentUtilities.getStudents(this.file)) {
             border = XamlGenerator.getBorder("0.5", "White", "Hand");
             textblock = XamlGenerator.getTextBlock(student, "12", "Normal", "Normal", "Center", "Center");
 
@@ -244,7 +223,7 @@ public class StudentView {
     private void fillCourseMeanAndStandardDeviation(String course, double borderWidth, double x2, double canvasHeight,
                                                     List<Element> lines, List<Element> borders) {
         // mean and standard deviation calculations of results
-        List<String> results = this.getCourseResults(course);
+        List<String> results = StudentUtilities.getCourseResults(course, this.file);
         double mean = MathUtilities.calculateMean(results);
         double standardDeviation = MathUtilities.calculateStandardDeviation(results);
 
@@ -299,7 +278,7 @@ public class StudentView {
     }
 
     public void update(String student) {
-        this.student = new Student(student, this.getStudentResults(student));
+        this.student = new Student(student, StudentUtilities.getStudentResults(student, this.file));
         this.init();
         this.write();
     }

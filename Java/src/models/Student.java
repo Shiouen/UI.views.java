@@ -12,7 +12,7 @@ public class Student {
     private List<String> courses;
     private Map<String, String> results;
 
-    private Student() { }
+    public Student(String name) { this.name = name; }
     public Student(String name, List<Element> results) {
         this.name = name;
 

@@ -3,7 +3,9 @@ package xml;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.jdom2.Attribute;
 import org.jdom2.Document;
@@ -69,6 +71,15 @@ public class XmlGenerator {
 
         return values;
     }
+    public static List<String> searchUniqueContents(String xpathString, String doc) {
+        XPathExpression<Element> xpath = XPathFactory.instance().compile(xpathString, Filters.element());
+        List<Element> elements = xpath.evaluate(readDocument(doc, "xml"));
+
+        Set<String> values = new LinkedHashSet<>();
+        for (Element e : elements) { values.add(e.getValue()); }
+
+        return new ArrayList<String>(values);
+    }
 
     public static Element searchElement(String xpathString, String doc) {
         XPathExpression<Element> xpath = XPathFactory.instance().compile(xpathString, Filters.element());
@@ -94,5 +105,14 @@ public class XmlGenerator {
         for (Attribute a : attributes) { values.add(a.getValue()); }
 
         return values;
+    }
+    public static List<String> searchUniqueAttributes(String xpathString, String doc) {
+        XPathExpression<Attribute> xpath = XPathFactory.instance().compile(xpathString, Filters.attribute());
+        List<Attribute> attributes = xpath.evaluate(readDocument(doc, "xml"));
+
+        Set<String> values = new LinkedHashSet<>();
+        for (Attribute a : attributes) { values.add(a.getValue()); }
+
+        return new ArrayList<String>(values);
     }
 }

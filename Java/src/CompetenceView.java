@@ -1,42 +1,39 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import org.jdom2.Document;
 import org.jdom2.Element;
 
+import models.Competence;
 import models.Student;
-import utilities.ListUtilities;
-import utilities.MathUtilities;
+import utilities.CompetenceUtilities;
 import xaml.XamlGenerator;
 import xml.XmlGenerator;
 
 public class CompetenceView {
-    private Document competences;
     private String file;
 
     private Element page;
     private Element grid;
     private Element canvas;
 
+    private List<String> students;
     private Student student;
+
+    private List<Competence> competences;
 
     public CompetenceView(String file) {
         this.file = file;
-        this.competences = XmlGenerator.readDocument(this.file, "xml");
+
+        // get students
+        this.students = CompetenceUtilities.getStudents(this.file);
+        String firstStudent = CompetenceUtilities.getFirstStudent(this.file);
+        this.student = new Student(firstStudent);
+
+        // get competences
+        this.competences = CompetenceUtilities.getCompetences(this.file);
 
         this.init();
     }
-
-
-/*    private String getFirstStudent() {
-        String student = XmlGenerator.searchAttribute("//Student/@FullName", this.file);
-        return student;
-    }
-    private List<String> getStudents() {
-        List<String> students = XmlGenerator.searchAttributes("//Students/Student/@FullName", this.file);
-        return students;
-    }*/
 
     private void init() {
         // page
@@ -66,6 +63,8 @@ public class CompetenceView {
         this.generateGraphStructure();
         this.generateStudentBlock();
         this.generateStudentScrollViewer();
+
+        this.fillGraphCompetences();
     }
 
     private void generateGraphStructure() {
@@ -118,8 +117,6 @@ public class CompetenceView {
         incr = (y2 - y1) / 20.0;
         double x = canvasWidth / 2.0;
         for (double i = y1; i <= y2; i += incr) {
-            System.out.println(i);
-
             if (i == y1 || i == canvasHeight / 2 || i == y2) {
                 x1 = x + 10.0;
                 x2 = x - 10.0;
@@ -139,7 +136,7 @@ public class CompetenceView {
     }
     private void generateStudentBlock() {
         // student name
-        Element textblock = XamlGenerator.getTextBlock("hihihi", "32", "Normal", "DemiBold", "Center", "Top");
+        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "DemiBold", "Center", "Top");
 
         textblock.setAttribute("Grid.Column", "1");
         textblock.setAttribute("Grid.Row", "0");
@@ -154,7 +151,7 @@ public class CompetenceView {
         Element border;
         Element textblock;
 
-        for (String student : Arrays.asList("Student1", "Student2")) {
+        for (String student : this.students) {
             border = XamlGenerator.getBorder("0.5", "White", "Hand");
             textblock = XamlGenerator.getTextBlock(student, "12", "Normal", "Normal", "Center", "Center");
 
@@ -175,6 +172,49 @@ public class CompetenceView {
         scrollViewer.setAttribute("Grid.Row", "1");
         XamlGenerator.setXName(scrollViewer, "StudentScroller");
         this.grid.addContent(scrollViewer);
+    }
+
+    private void fillGraphCompetences() {
+        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
+        double canvasWidth = Double.parseDouble(this.canvas.getAttributeValue("Width"));
+
+        double x;
+        double y;
+
+        double x1, x2, x3, x4;
+        double y1, y2, y3, y4;
+
+        Element textblock;
+
+        for (Competence competence : this.competences) {
+            textblock = XamlGenerator.getTextBlock(
+                    competence.getName().equals("AnalyseOntwerp") ? "Analyse en Ontwerp" : competence.getName(), "40");
+
+            // label positioning
+            switch (competence.getName()) {
+                case "Communiceren":
+                    x = (canvasWidth / 2.0) - 90.0;y = canvasHeight - 35.0;
+                    break;
+                case "Management":
+                    x = canvasWidth / 12.0;y = (canvasHeight / 2.0) - 60.0;
+                    break;
+                case "Implementatie":
+                    x = (canvasWidth / 2.0) - 90.0;y = -10.0;
+                    break;
+                case "AnalyseOntwerp":
+                    x = canvasWidth / 1.47;y = (canvasHeight / 2.0) - 60.0;
+                    break;
+                default:
+                    x = 0;y=0;break;
+            }
+            textblock.setAttribute("Canvas.Bottom", Double.toString(y));
+            textblock.setAttribute("Canvas.Left", Double.toString(x));
+
+            this.canvas.addContent(textblock);
+        }
+
+        // competence mean lines
+        //this.canvas.addContent(XamlGenerator.getLine(this.competences.get("Communiceren"), ));
     }
 
     public void write() {
