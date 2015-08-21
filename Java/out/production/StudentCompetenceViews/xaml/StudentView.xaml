@@ -251,7 +251,7 @@
         </Border.Effect>
       </Border>
     </StackPanel>
-    <TextBlock FontSize="32" FontStyle="Normal" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0" x:Name="StudentNameBlock">Fred Sanchez</TextBlock>
+    <TextBlock FontSize="25" FontStyle="Normal" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0" x:Name="StudentNameBlock">Fred Sanchez</TextBlock>
     <StackPanel Margin="5" Orientation="Vertical" Grid.Column="0" Grid.Row="1" x:Name="StudentPanel">
       <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5">
         <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Fred Sanchez</TextBlock>

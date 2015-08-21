@@ -201,6 +201,11 @@ public class XamlGenerator {
     }
 
     /**
+     * SCROLLVIEWER *
+     */
+    public static Element getScrollViewer() { return new Element("ScrollViewer", getDefaultNamespace()); }
+
+    /**
      * STACKPANEL *
      */
     public static Element getStackPanel(String margin, String orientation) {

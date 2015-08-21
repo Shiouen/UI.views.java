@@ -50,6 +50,38 @@ public class CompetenceView {
         this.grid.addContent(viewbox);
 
         this.page.addContent(this.grid);
+
+        this.generateStudentScrollViewer();
+    }
+
+    private void generateStudentScrollViewer() {
+        Element scrollViewer = XamlGenerator.getScrollViewer();
+
+        Element stack = XamlGenerator.getStackPanel("5", "Vertical");
+        Element border;
+        Element textblock;
+
+        for (String student : Arrays.asList("Student1", "Student2")) {
+            border = XamlGenerator.getBorder("0.5", "White", "Hand");
+            textblock = XamlGenerator.getTextBlock(student, "12", "Normal", "Normal", "Center", "Center");
+
+            textblock.setAttribute("Margin", "0,1.5,0,1");
+            border.addContent(textblock);
+
+            border.setAttribute("Margin", "0,0,0,8.5");
+
+            Element effect = XamlGenerator.getEffect("Border");
+            effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0"));
+            border.addContent(effect);
+
+            stack.addContent(border);
+        }
+
+        scrollViewer.addContent(stack);
+        scrollViewer.setAttribute("Grid.Column", "0");
+        scrollViewer.setAttribute("Grid.Row", "1");
+        XamlGenerator.setXName(scrollViewer, "StudentScroller");
+        this.grid.addContent(scrollViewer);
     }
 
     public void write() {

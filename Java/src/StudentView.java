@@ -170,7 +170,7 @@ public class StudentView {
     }
     private void generateStudentBlock() {
         // student name
-        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "25", "Normal", "Bold", "Center", "Top");
+        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "DemiBold", "Center", "Top");
         textblock.setAttribute("Grid.Column", "1");
         textblock.setAttribute("Grid.Row", "0");
         XamlGenerator.setXName(textblock, "StudentNameBlock");
