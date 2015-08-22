@@ -176,6 +176,20 @@ public class XamlGenerator {
 
         return line;
     }
+    public static Element getLine(String x1, String y1, String x2, String y2,
+                                  String stroke, String strokeThickness, String visibility) {
+        Element line = new Element("Line", getDefaultNamespace());
+
+        line.setAttribute("X1", x1);
+        line.setAttribute("Y1", y1);
+        line.setAttribute("X2", x2);
+        line.setAttribute("Y2", y2);
+        line.setAttribute("Stroke", stroke);
+        line.setAttribute("StrokeThickness", strokeThickness);
+        line.setAttribute("Visibility", visibility);
+
+        return line;
+    }
 
     /**
      * NAMESPACES *

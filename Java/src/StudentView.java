@@ -38,7 +38,7 @@ public class StudentView {
         // grid
         String[] rowSizes = { "50", "1*", "40" };
         String[] colSizes = { "110", "8*", "1*" };
-        this.grid = XamlGenerator.getGrid(rowSizes, colSizes, true);
+        this.grid = XamlGenerator.getGrid(rowSizes, colSizes, false);
 
         // viewbox
         Element viewbox = XamlGenerator.getViewBox();

@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.jdom2.Element;
 
@@ -24,13 +26,13 @@ public class CompetenceView {
     public CompetenceView(String file) {
         this.file = file;
 
+        // get competences
+        this.competences = CompetenceUtilities.getCompetences(this.file);
+
         // get students
         this.students = CompetenceUtilities.getStudents(this.file);
         String firstStudent = CompetenceUtilities.getFirstStudent(this.file);
         this.student = new Student(firstStudent);
-
-        // get competences
-        this.competences = CompetenceUtilities.getCompetences(this.file);
 
         this.init();
     }
@@ -43,7 +45,7 @@ public class CompetenceView {
         // grid
         String[] rowSizes = {"50", "1*", "40"};
         String[] colSizes = {"200", "80*", "10*"};
-        this.grid = XamlGenerator.getGrid(rowSizes, colSizes, true);
+        this.grid = XamlGenerator.getGrid(rowSizes, colSizes, false);
 
         // viewbox
         Element viewbox = XamlGenerator.getViewBox();
@@ -52,7 +54,6 @@ public class CompetenceView {
 
         // canvas
         this.canvas = XamlGenerator.getCanvas("700", "700");
-        this.canvas.setAttribute("Margin", "40");
 
         viewbox.addContent(this.canvas);
         XamlGenerator.setXName(viewbox, "CompetenceGraph");
@@ -175,14 +176,18 @@ public class CompetenceView {
     }
 
     private void fillGraphCompetences() {
-        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
         double canvasWidth = Double.parseDouble(this.canvas.getAttributeValue("Width"));
+        double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
 
+        double centerX = canvasWidth / 2.0;
+        double centerY = canvasHeight / 2.0;
+
+        this.fillGraphMeanLines(canvasWidth, canvasHeight, centerX, centerY);
+        this.fillGraphCompetenceTextBlocks(canvasWidth, canvasHeight, centerX, centerY);
+    }
+    private void fillGraphCompetenceTextBlocks(double canvasWidth, double canvasHeight, double centerX, double centerY) {
         double x;
         double y;
-
-        double x1, x2, x3, x4;
-        double y1, y2, y3, y4;
 
         Element textblock;
 
@@ -190,19 +195,18 @@ public class CompetenceView {
             textblock = XamlGenerator.getTextBlock(
                     competence.getName().equals("AnalyseOntwerp") ? "Analyse en Ontwerp" : competence.getName(), "40");
 
-            // label positioning
             switch (competence.getName()) {
                 case "Communiceren":
-                    x = (canvasWidth / 2.0) - 90.0;y = canvasHeight - 35.0;
+                    x = centerX - 90.0;y = canvasHeight - 35.0;
                     break;
                 case "Management":
-                    x = canvasWidth / 12.0;y = (canvasHeight / 2.0) - 60.0;
+                    x = canvasWidth / 12.0;y = centerY - 60.0;
                     break;
                 case "Implementatie":
-                    x = (canvasWidth / 2.0) - 90.0;y = -10.0;
+                    x = centerX - 90.0;y = -10.0;
                     break;
                 case "AnalyseOntwerp":
-                    x = canvasWidth / 1.47;y = (canvasHeight / 2.0) - 60.0;
+                    x = canvasWidth / 1.47;y = centerY - 60.0;
                     break;
                 default:
                     x = 0;y=0;break;
@@ -212,9 +216,62 @@ public class CompetenceView {
 
             this.canvas.addContent(textblock);
         }
+    }
+    private void fillGraphMeanLines(double canvasWidth, double canvasHeight, double centerX, double centerY) {
+        List<Element> lines = new ArrayList<>();
+        Map<String, Double> means = new HashMap<>();
 
-        // competence mean lines
-        //this.canvas.addContent(XamlGenerator.getLine(this.competences.get("Communiceren"), ));
+        double usedCanvasWidth = 90.0 / 100.0 * canvasWidth;
+        double usedCanvasHeight = 90.0 / 100.0 * canvasHeight;
+
+        String mng = "Management";
+        String impl = "Implementatie";
+        String an = "AnalyseOntwerp";
+        String com = "Communiceren";
+
+        String yellow = "Yellow";
+        String yelThick = "8";
+        String darkgreen = "DarkGreen";
+        String dgThick = "4";
+
+        // get scaled means, according to graph sizes
+        CompetenceUtilities.scaleMeans(usedCanvasWidth, usedCanvasHeight, this.competences, means);
+
+        // competence lines
+        CompetenceUtilities.fillLine(centerX, centerY, -means.get(mng), -means.get(com),
+                lines, yellow, yelThick);
+        CompetenceUtilities.fillLine(centerX, centerY, -means.get(mng), means.get(impl),
+                lines, yellow, yelThick);
+        CompetenceUtilities.fillLine(centerX, centerY, means.get(an), means.get(impl),
+                lines, yellow, yelThick);
+        CompetenceUtilities.fillLine(centerX, centerY, means.get(an), -means.get(com),
+                lines, yellow, yelThick);
+
+        // student competence lines
+        String visibility;
+        List<Competence> competences = new ArrayList<>();
+        for (String student : this.students) {
+            means.clear();
+            competences.clear();
+
+            visibility = student.equals(this.student.getName()) ? "Visible" : "Collapsed";
+
+            for (Competence competence : this.competences) {
+                competences.add(new Competence(competence.getName(), student, this.file));
+            }
+
+            CompetenceUtilities.scaleMeans(usedCanvasWidth, usedCanvasHeight, competences, means);
+            CompetenceUtilities.fillLine(centerX, centerY, -means.get(mng), -means.get(com),
+                    lines, darkgreen, dgThick, visibility);
+            CompetenceUtilities.fillLine(centerX, centerY, -means.get(mng), means.get(impl),
+                    lines, darkgreen, dgThick, visibility);
+            CompetenceUtilities.fillLine(centerX, centerY, means.get(an), means.get(impl),
+                    lines, darkgreen, dgThick, visibility);
+            CompetenceUtilities.fillLine(centerX, centerY, means.get(an), -means.get(com),
+                    lines, darkgreen, dgThick, visibility);
+        }
+
+        this.canvas.addContent(lines);
     }
 
     public void write() {
