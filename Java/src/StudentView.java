@@ -22,11 +22,6 @@ public class StudentView {
     public StudentView(String file) {
         // xml sources
         this.file = file;
-
-        // get first student data
-        String firstStudent = StudentUtilities.getFirstStudent(this.file);
-        this.student = new Student(firstStudent, StudentUtilities.getStudentResults(firstStudent, this.file));
-
         this.init();
     }
 
@@ -34,6 +29,7 @@ public class StudentView {
         // page
         this.page = XamlGenerator.getPage();
         XamlGenerator.setXNamespace(this.page);
+        this.page.setAttribute("Loaded", "onLoad");
 
         // grid
         String[] rowSizes = { "50", "1*", "40" };
@@ -55,16 +51,20 @@ public class StudentView {
 
         this.page.addContent(this.grid);
 
+        // load layout
         this.generateFunctionButtons();
         this.generateGraphStructure();
-        this.generateStudentBlock();
         this.generateStudentPanel();
 
-        this.fillStudentGraph();
+        // load all student data
+        for (String student : StudentUtilities.getStudents(this.file)) {
+            this.student = new Student(student, StudentUtilities.getStudentResults(student, this.file));
+            this.generateStudentBlock();
+            this.fillStudentGraph();
+        }
     }
 
     private void generateStudentPanel() {
-        // student names overview
         Element stack = XamlGenerator.getStackPanel("5", "Vertical");
         Element border;
         Element textblock;
@@ -81,6 +81,11 @@ public class StudentView {
             Element effect = XamlGenerator.getEffect("Border");
             effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0"));
             border.addContent(effect);
+
+            // interactivity
+            XamlGenerator.setXName(textblock,
+                    StudentUtilities.getInteractivityId("Student_Panel", student));
+            border.setAttribute("MouseLeftButtonUp", "selectStudent");
 
             stack.addContent(border);
         }
@@ -154,7 +159,11 @@ public class StudentView {
         textblock.setAttribute("Grid.Column", "1");
         textblock.setAttribute("Grid.Row", "0");
 
-        XamlGenerator.setXName(textblock, "StudentNameBlock");
+        // interactivity
+        XamlGenerator.hide(textblock);
+        XamlGenerator.setXName(textblock,
+                StudentUtilities.getInteractivityId("Student_Block", this.student.getName()));
+
         this.grid.addContent(textblock);
     }
 
@@ -184,7 +193,7 @@ public class StudentView {
             ++i;
 
             // course border
-            this.fillCourseBorder(score, borderWidth, borderHeight, textblockX, 0, canvasHeight, courseBorders);
+            this.fillCourseBorder(course, score, borderWidth, borderHeight, textblockX, 0, canvasHeight, courseBorders);
 
             // textblock
             this.fillCourseTextBlock(course, textblockX, textblockY, borderWidth, borderHeight, textblocks);
@@ -199,7 +208,7 @@ public class StudentView {
         this.canvas.addContent(textblocks);
 
     }
-    private void fillCourseBorder(double score, double borderWidth, double borderHeight, double x2, double y,
+    private void fillCourseBorder(String course, double score, double borderWidth, double borderHeight, double x2, double y,
                                   double canvasHeight, List<Element> borders) {
         // set correct border bg color
         String bg = "Yellow";
@@ -218,6 +227,11 @@ public class StudentView {
         effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
         border.addContent(effect);
 
+        // interactivity
+        XamlGenerator.hide(border);
+        XamlGenerator.setXName(border,
+                StudentUtilities.getInteractivityId("Score_Border", this.student.getName(), course));
+
         borders.add(border);
     }
     private void fillCourseMeanAndStandardDeviation(String course, double borderWidth, double x2, double canvasHeight,
@@ -235,6 +249,12 @@ public class StudentView {
 
         Element line = XamlGenerator.getLine(Double.toString(x1), Double.toString(y),
                 Double.toString(x2), Double.toString(y), "Black", "3");
+
+        // interactivity
+        XamlGenerator.hide(line);
+        XamlGenerator.setXName(line,
+                StudentUtilities.getInteractivityId("Mean_Line", this.student.getName(), course));
+
         lines.add(line);
 
         // standard deviation border
@@ -250,6 +270,11 @@ public class StudentView {
         Element effect = XamlGenerator.getEffect("Border");
         effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "3"));
         border.addContent(effect);
+
+        // interactivity
+        XamlGenerator.hide(border);
+        XamlGenerator.setXName(border,
+                StudentUtilities.getInteractivityId("StdDev_Border", this.student.getName(), course));
 
         borders.add(border);
     }
@@ -272,16 +297,15 @@ public class StudentView {
         renderTransform.addContent(XamlGenerator.getTranslateTransform(Double.toString(-(textblockWidth)), "0"));
         textblock.addContent(renderTransform);
 
-        XamlGenerator.setXName(textblock, course.replaceAll(" ", "_"));
+        // interactivity
+        XamlGenerator.hide(textblock);
+        XamlGenerator.setXName(textblock,
+                StudentUtilities.getInteractivityId("Text", this.student.getName(), course));
 
         textblocks.add(textblock);
     }
 
-    public void update(String student) {
-        this.student = new Student(student, StudentUtilities.getStudentResults(student, this.file));
-        this.init();
-        this.write();
-    }
+
     public void write() {
         XmlGenerator.writeDocument(XmlGenerator.getDocument(this.page), "StudentView.xaml", "xaml");
     }

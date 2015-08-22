@@ -330,6 +330,11 @@ public class XamlGenerator {
     }
 
     /**
+     * Visibility *
+     */
+    public static void hide(Element element) { element.setAttribute("Visibility", "Collapsed"); }
+
+    /**
      * XNAME *
      */
     public static void setXName(Element element, String name) {
