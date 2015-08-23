@@ -1734,16 +1734,18 @@
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
+      <TextBlock x:Name="Courses" Visibility="Collapsed">Computersystemen_1 Databanken_1 Engels Frans Boekhoudkundig_inzicht Netwerken1 Programmeren_1 Software_engineering_1 User_interfaces_1 Management_accounting</TextBlock>
+      <TextBlock x:Name="Students" Visibility="Collapsed">Fred_Sanchez Lois_Weaver Denise_Andrews Charles_Butler Joan_Willis Patrick_Bailey Michael_Elliott Wanda_Bailey Bonnie_Collins John_Black</TextBlock>
     </Canvas>
   </Viewbox>
-  <StackPanel Margin="5" Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" x:Name="FunctionButtons">
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,8.5,0">
+  <StackPanel Margin="5" Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center">
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,8.5,0" x:Name="Mean_StdDev" MouseLeftButtonUp="toggleMeansStdDevs">
       <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,0,5,0">Standaardafwijking en gemiddelde</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,8.5,0">
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,8.5,0" x:Name="Min_Max" MouseLeftButtonUp="toggleMinMax">
       <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,0,5,0">Minimum en maximum</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
@@ -1751,62 +1753,62 @@
     </Border>
   </StackPanel>
   <StackPanel Margin="5" Orientation="Vertical" Grid.Column="0" Grid.Row="1" x:Name="StudentPanel">
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Fred_Sanchez_Student_Panel">Fred Sanchez</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Fred_Sanchez_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Fred Sanchez</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Lois_Weaver_Student_Panel">Lois Weaver</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Lois_Weaver_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Lois Weaver</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Denise_Andrews_Student_Panel">Denise Andrews</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Denise_Andrews_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Denise Andrews</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Charles_Butler_Student_Panel">Charles Butler</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Charles_Butler_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Charles Butler</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Joan_Willis_Student_Panel">Joan Willis</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Joan_Willis_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Joan Willis</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Patrick_Bailey_Student_Panel">Patrick Bailey</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Patrick_Bailey_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Patrick Bailey</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Michael_Elliott_Student_Panel">Michael Elliott</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Michael_Elliott_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Michael Elliott</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Wanda_Bailey_Student_Panel">Wanda Bailey</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Wanda_Bailey_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Wanda Bailey</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="Bonnie_Collins_Student_Panel">Bonnie Collins</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="Bonnie_Collins_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">Bonnie Collins</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>
     </Border>
-    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" MouseLeftButtonUp="selectStudent">
-      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1" x:Name="John_Black_Student_Panel">John Black</TextBlock>
+    <Border BorderThickness="0.5" Background="White" Cursor="Hand" Margin="0,0,0,8.5" x:Name="John_Black_Student_Panel" MouseLeftButtonUp="selectStudent">
+      <TextBlock FontSize="12" FontStyle="Normal" FontWeight="Normal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,1.5,0,1">John Black</TextBlock>
       <Border.Effect>
         <DropShadowEffect BlurRadius="15" Direction="60" ShadowDepth="0" />
       </Border.Effect>

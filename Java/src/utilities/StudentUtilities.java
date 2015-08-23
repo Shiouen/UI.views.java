@@ -7,6 +7,10 @@ import org.jdom2.Element;
 import xml.XmlGenerator;
 
 public class StudentUtilities {
+    public static List<String> getCourses(String file) {
+        List<String> courses = XmlGenerator.searchUniqueAttributes("//Result/@course", file);
+        return courses;
+    }
     public static String getFirstStudent(String file) {
         String student = XmlGenerator.searchAttribute("//Student/@FullName", file);
         return student;

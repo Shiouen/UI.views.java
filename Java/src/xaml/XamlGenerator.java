@@ -194,17 +194,26 @@ public class XamlGenerator {
     /**
      * NAMESPACES *
      */
+    public static void setFunctionNamespace(Element control) {
+        control.addNamespaceDeclaration(getFunctionNamespace());
+    }
+    public static void setNavigationNamespace(Element control) {
+        control.addNamespaceDeclaration(getNavigationNamespace());
+    }
     public static void setXNamespace(Element control) {
         control.addNamespaceDeclaration(getXNamespace());
     }
     public static Namespace getDefaultNamespace() {
         return Namespace.getNamespace("http://schemas.microsoft.com/winfx/2006/xaml/presentation");
     }
+    public static Namespace getFunctionNamespace() {
+        return Namespace.getNamespace("fn", "http://www.w3.org/2005/xpath-functions");
+    }
+    public static Namespace getNavigationNamespace() {
+        return Namespace.getNamespace("navigation","clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation");
+    }
     public static Namespace getXNamespace() {
         return Namespace.getNamespace("x", "http://schemas.microsoft.com/winfx/2006/xaml");
-    }
-    public static Namespace getNavigationNamespace(){
-        return Namespace.getNamespace("navigation","clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation");
     }
 
     /**
@@ -234,6 +243,13 @@ public class XamlGenerator {
     /**
      * TEXTBLOCK *
      */
+    public static Element getTextBlock(String text) {
+        Element tb = new Element("TextBlock", getDefaultNamespace());
+
+        tb.addContent(text);
+
+        return tb;
+    }
     public static Element getTextBlock(String text, String fontSize) {
         Element tb = new Element("TextBlock", getDefaultNamespace());
 

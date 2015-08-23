@@ -57,6 +57,8 @@ public class StudentView {
             this.generateStudentBlock();
             this.fillStudentGraph();
         }
+
+        this.generateData();
     }
 
     private void generateStudentPanel() {
@@ -78,7 +80,7 @@ public class StudentView {
             border.addContent(effect);
 
             // interactivity
-            XamlGenerator.setXName(textblock,
+            XamlGenerator.setXName(border,
                     StudentUtilities.getInteractivityId("Student_Panel", student));
             border.setAttribute("MouseLeftButtonUp", "selectStudent");
 
@@ -109,13 +111,17 @@ public class StudentView {
             effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0"));
             border.addContent(effect);
 
+            // interactivity
+            String functionName = function.equals("Minimum en maximum") ? "Min_Max" : "Mean_StdDev";
+            XamlGenerator.setXName(border, functionName);
+            border.setAttribute("MouseLeftButtonUp", functionName.equals("Min_Max") ? "toggleMinMax" : "toggleMeansStdDevs");
+
             stack.addContent(border);
         }
 
         stack.setAttribute("Grid.Column", "1");
         stack.setAttribute("Grid.Row", "2");
         stack.setAttribute("HorizontalAlignment", "Center");
-        XamlGenerator.setXName(stack, "FunctionButtons");
         this.grid.addContent(stack);
     }
     private void generateGraphStructure() {
@@ -158,6 +164,24 @@ public class StudentView {
                 StudentUtilities.getInteractivityId("Student_Block", this.student.getName()));
 
         this.grid.addContent(textblock);
+    }
+
+    private void generateData() {
+        List<String> courses = StudentUtilities.getCourses(this.file);
+        List<String> students = StudentUtilities.getStudents(this.file);
+
+        courses = ListUtilities.replace(courses, " ", "_");
+        students = ListUtilities.replace(students, " ", "_");
+
+        Element textblock = XamlGenerator.getTextBlock(ListUtilities.join(courses, ' '));
+        XamlGenerator.setXName(textblock, "Courses");
+        XamlGenerator.hide(textblock);
+        this.canvas.addContent(textblock);
+
+        textblock = XamlGenerator.getTextBlock(ListUtilities.join(students, ' '));
+        XamlGenerator.setXName(textblock, "Students");
+        XamlGenerator.hide(textblock);
+        this.canvas.addContent(textblock);
     }
 
     private void fillStudentGraph() {
