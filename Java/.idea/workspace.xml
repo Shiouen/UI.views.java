@@ -26,18 +26,17 @@
       <file leaf-file-name="StudentView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+            <state vertical-scroll-proportion="-17.758621">
+              <caret line="181" column="42" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
               <folding>
                 <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-                <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-                <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
                 <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
                 <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
                 <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+                <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
                 <element signature="method#main#0;class#StudentView#0" expanded="false" />
               </folding>
             </state>
@@ -47,22 +46,72 @@
       <file leaf-file-name="ClassView.xsl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Xsl/ClassView.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35146898">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.7410228">
+              <caret line="521" column="38" selection-start-line="521" selection-start-column="38" selection-end-line="521" selection-end-column="38" />
               <folding>
                 <element signature="n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#1;n#xsl:element#0;n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#2;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#2;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#2;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#1;n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#2;n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#4;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#4;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#1;n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#2;n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#6;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#6;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:if#0;n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#9;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#9;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#9;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#10;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#10;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#10;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:template#11;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#11;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#12;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#12;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#12;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#13;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#13;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#13;n#xsl:stylesheet#0;n#!!top" expanded="false" />
                 <element signature="n#xsl:template#14;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:template#14;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#14;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:template#15;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:template#17;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:template#17;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:for-each#0;n#xsl:template#17;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:for-each#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+                <element signature="n#xsl:call-template#0;n#xsl:for-each#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -554,7 +603,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="119" />
+      <option name="time" value="121" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -635,14 +684,13 @@
           <caret line="229" column="51" selection-start-line="229" selection-start-column="51" selection-end-line="229" selection-end-column="51" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -731,14 +779,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -827,14 +874,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -846,14 +892,13 @@
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -934,14 +979,13 @@
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -1022,14 +1066,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -1110,14 +1153,13 @@
           <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -1198,14 +1240,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -1286,14 +1327,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -1644,27 +1684,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Xsl/before interact/ClassViewWorkIt.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39144737">
-          <caret line="65" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StudentView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state vertical-scroll-proportion="-17.758621">
+          <caret line="181" column="42" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
-            <element signature="method#generateData#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
+            <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
           </folding>
         </state>
@@ -1672,22 +1704,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Xsl/ClassView.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35146898">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.7410228">
+          <caret line="521" column="38" selection-start-line="521" selection-start-column="38" selection-end-line="521" selection-end-column="38" />
           <folding>
             <element signature="n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#1;n#xsl:element#0;n#xsl:element#0;n#xsl:template#1;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#2;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#2;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#2;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#1;n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#2;n#xsl:element#0;n#xsl:template#3;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#4;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#4;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#1;n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#2;n#xsl:element#0;n#xsl:template#5;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#6;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#6;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:if#0;n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#7;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:element#0;n#xsl:template#8;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#9;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#9;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:element#0;n#xsl:template#9;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#10;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#10;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#10;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:template#11;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#11;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#12;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#12;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#12;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#13;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#13;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#13;n#xsl:stylesheet#0;n#!!top" expanded="false" />
             <element signature="n#xsl:template#14;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:template#14;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:element#0;n#xsl:element#0;n#xsl:template#14;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:template#15;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#16;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:template#17;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:template#17;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:for-each#0;n#xsl:template#17;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:for-each#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
+            <element signature="n#xsl:call-template#0;n#xsl:for-each#0;n#xsl:if#0;n#xsl:for-each#0;n#xsl:template#18;n#xsl:stylesheet#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

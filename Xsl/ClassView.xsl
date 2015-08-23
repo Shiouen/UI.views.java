@@ -66,7 +66,7 @@
             </xsl:element>
 
             <xsl:call-template name="fillStatistics"/>
-            <xsl:call-template name="fillCourseTextBlock"/>
+            <xsl:call-template name="fillCoursesStudentsTextBlock"/>
         </xsl:element>
     </xsl:template>
 
@@ -269,7 +269,6 @@
         <xsl:element name="Border">
             <xsl:attribute name="Background" select="'Gray'"/>
             <xsl:attribute name="BorderThickness" select="'0'"/>
-            <xsl:attribute name="Cursor" select="'Hand'"/>
             <xsl:attribute name="Grid.Column" select="$GridColumn"/>
             <xsl:attribute name="Grid.Row" select="'0'"/>
             <xsl:attribute name="Margin" select="'3,3,3,3'"/>
@@ -318,6 +317,7 @@
     </xsl:template>
 
     <xsl:template name="getStatisticBorderedTextBlock">
+        <xsl:param name="Function"/>
         <xsl:param name="GridColumn"/>
         <xsl:param name="HorAlign"/>
         <xsl:param name="Margin"/>
@@ -327,11 +327,13 @@
         <xsl:param name="XNameTextBlock"/>
 
         <xsl:element name="Border">
+            <xsl:attribute name="Background" select="'White'"/>
             <xsl:attribute name="BorderThickness" select="'0'"/>
             <xsl:attribute name="Cursor" select="'Hand'"/>
             <xsl:attribute name="Grid.Column" select="$GridColumn"/>
             <xsl:attribute name="Grid.Row" select="'0'"/>
             <xsl:attribute name="Margin" select="$Margin"/>
+            <xsl:attribute name="MouseLeftButtonUp" select="$Function"/>
             <xsl:attribute name="x:Name" select="$XNameBorder"/>
 
             <xsl:element name="TextBlock">
@@ -363,6 +365,7 @@
             <xsl:attribute name="Margin" select="'3,3,3,3'"/>
             <xsl:attribute name="Opacity" select="'0.9'"/>
             <xsl:attribute name="x:Name" select="$XNameBorder"/>
+            <xsl:attribute name="MouseLeftButtonUp" select="'selectStudent'"/>
 
             <xsl:element name="TextBlock">
                 <xsl:attribute name="FontSize" select="'16'"/>
@@ -426,32 +429,17 @@
                     
                     <xsl:variable name="CourseNoSpaces" select="replace($Course, ' ', '_')"/>
                     <xsl:variable name="XName" select="concat($StudentNoSpaces, concat('_', $CourseNoSpaces))"/>
-    
+
 
                     <xsl:variable name="XNameBorder" select="concat($XName, '_Border')"/>
                     <xsl:variable name="XNameTextBlock" select="concat($XName, '_Text_Block')"/>
 
-                    <!--<xsl:call-template name="getScoreBorderedTextBlock">-->
-                        <!--<xsl:with-param name="Text" select="$Score"/>-->
-                        <!--<xsl:with-param name="GridColumn" select="sum($CoursePos, 1)"/>-->
-                        <!--<xsl:with-param name="GridRow" select="sum($StudentPos, 1)"/>-->
-                        <!--<xsl:with-param name="XNameBorder" select="$XNameBorder"/>-->
-                        <!--<xsl:with-param name="XNameTextBlock" select="$XNameTextBlock"/>-->
-                    <!--</xsl:call-template>-->
-                    <xsl:call-template name="getBorderedTextBlock">
-                        <xsl:with-param name="Background" select="'White'"/>
-                        <xsl:with-param name="BorderThickness" select="'0'"/>
-                        <xsl:with-param name="FontSize" select="'16'"/>
-                        <xsl:with-param name="FontWeight" select="'Normal'"/>
-                        <xsl:with-param name="Foreground" select="'Black'"/>
+                    <xsl:call-template name="getScoreBorderedTextBlock">
+                        <xsl:with-param name="Text" select="$Score"/>
                         <xsl:with-param name="GridColumn" select="sum($CoursePos, 1)"/>
                         <xsl:with-param name="GridRow" select="sum($StudentPos, 1)"/>
-                        <xsl:with-param name="HorAlign" select="'Center'"/>
-                        <xsl:with-param name="Margin" select="'3,3,3,3'"/>
-                        <xsl:with-param name="Opacity" select="'0.9'"/>
-                        <xsl:with-param name="Text" select="$Score"/>
-                        <xsl:with-param name="TextAlignment" select="'Center'"/>
-                        <xsl:with-param name="VertAlign" select="'Center'"/>
+                        <xsl:with-param name="XNameBorder" select="$XNameBorder"/>
+                        <xsl:with-param name="XNameTextBlock" select="$XNameTextBlock"/>
                     </xsl:call-template>
                 </xsl:for-each>
             </xsl:if>
@@ -459,70 +447,83 @@
     </xsl:template>
 
     <xsl:template name="fillStatistics">
-        <xsl:element name="Border">
+        <xsl:element name="Grid">
             <xsl:attribute name="Grid.Column" select="'1'"/>
             <xsl:attribute name="Grid.Row" select="'2'"/>
             <xsl:attribute name="Margin" select="'0,5,0,0'"/>
-            <xsl:attribute name="Background" select="'White'"/>
 
-            <xsl:element name="Grid">
-                <xsl:element name="Grid.RowDefinitions">
-                    <xsl:call-template name="setRowSize">
-                        <xsl:with-param name="Height" select="'1*'"/>
-                    </xsl:call-template>
-                </xsl:element>
-
-                <xsl:element name="Grid.ColumnDefinitions">
-                    <xsl:call-template name="setColumnSize">
-                        <xsl:with-param name="Width" select="'20*'"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="setColumnSize">
-                        <xsl:with-param name="Width" select="'20*'"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="setColumnSize">
-                        <xsl:with-param name="Width" select="'20*'"/>
-                    </xsl:call-template>
-                </xsl:element>
-
-                <xsl:call-template name="getStatisticBorderedTextBlock">
-                    <xsl:with-param name="GridColumn" select="'0'"/>
-                    <xsl:with-param name="HorAlign" select="'Left'"/>
-                    <xsl:with-param name="Margin" select="'10,0,0,0'"/>
-                    <xsl:with-param name="Text" select="'Gemiddelde: ...'"/>
-                    <xsl:with-param name="TextAlignment" select="'Left'"/>
-                    <xsl:with-param name="XNameBorder" select="'Mean_Border'"/>
-                    <xsl:with-param name="XNameTextBlock" select="'Mean_Text_Block'"/>
-                </xsl:call-template>
-
-                <xsl:call-template name="getStatisticBorderedTextBlock">
-                    <xsl:with-param name="GridColumn" select="'1'"/>
-                    <xsl:with-param name="HorAlign" select="'Center'"/>
-                    <xsl:with-param name="Margin" select="'0,0,0,0'"/>
-                    <xsl:with-param name="Text" select="'Min: ...'"/>
-                    <xsl:with-param name="TextAlignment" select="'Center'"/>
-                    <xsl:with-param name="XNameBorder" select="'Min_Border'"/>
-                    <xsl:with-param name="XNameTextBlock" select="'Min_Text_Block'"/>
-                </xsl:call-template>
-
-                <xsl:call-template name="getStatisticBorderedTextBlock">
-                    <xsl:with-param name="GridColumn" select="'2'"/>
-                    <xsl:with-param name="HorAlign" select="'Right'"/>
-                    <xsl:with-param name="Margin" select="'0,0,10,0'"/>
-                    <xsl:with-param name="Text" select="'Max: ...'"/>
-                    <xsl:with-param name="TextAlignment" select="'Right'"/>
-                    <xsl:with-param name="XNameBorder" select="'Max_Border'"/>
-                    <xsl:with-param name="XNameTextBlock" select="'Max_Text_Block'"/>
+            <xsl:element name="Grid.RowDefinitions">
+                <xsl:call-template name="setRowSize">
+                    <xsl:with-param name="Height" select="'1*'"/>
                 </xsl:call-template>
             </xsl:element>
+
+            <xsl:element name="Grid.ColumnDefinitions">
+                <xsl:call-template name="setColumnSize">
+                    <xsl:with-param name="Width" select="'20*'"/>
+                </xsl:call-template>
+                <xsl:call-template name="setColumnSize">
+                    <xsl:with-param name="Width" select="'20*'"/>
+                </xsl:call-template>
+                <xsl:call-template name="setColumnSize">
+                    <xsl:with-param name="Width" select="'20*'"/>
+                </xsl:call-template>
+                <xsl:call-template name="setColumnSize">
+                    <xsl:with-param name="Width" select="'20*'"/>
+                </xsl:call-template>
+                <xsl:call-template name="setColumnSize">
+                    <xsl:with-param name="Width" select="'20*'"/>
+                </xsl:call-template>
+            </xsl:element>
+
+            <xsl:call-template name="getStatisticBorderedTextBlock">
+                <xsl:with-param name="Function" select="'markMean'"/>
+                <xsl:with-param name="GridColumn" select="'0'"/>
+                <xsl:with-param name="HorAlign" select="'Center'"/>
+                <xsl:with-param name="Margin" select="'10,0,0,0'"/>
+                <xsl:with-param name="Text" select="'Gemiddelde: ...'"/>
+                <xsl:with-param name="TextAlignment" select="'Left'"/>
+                <xsl:with-param name="XNameBorder" select="'Mean_Border'"/>
+                <xsl:with-param name="XNameTextBlock" select="'Mean_Text_Block'"/>
+            </xsl:call-template>
+
+            <xsl:call-template name="getStatisticBorderedTextBlock">
+                <xsl:with-param name="Function" select="'markMin'"/>
+                <xsl:with-param name="GridColumn" select="'2'"/>
+                <xsl:with-param name="HorAlign" select="'Center'"/>
+                <xsl:with-param name="Margin" select="'0,0,0,0'"/>
+                <xsl:with-param name="Text" select="'Minimum: ...'"/>
+                <xsl:with-param name="TextAlignment" select="'Center'"/>
+                <xsl:with-param name="XNameBorder" select="'Min_Border'"/>
+                <xsl:with-param name="XNameTextBlock" select="'Min_Text_Block'"/>
+            </xsl:call-template>
+
+            <xsl:call-template name="getStatisticBorderedTextBlock">
+                <xsl:with-param name="Function" select="'markMax'"/>
+                <xsl:with-param name="GridColumn" select="'4'"/>
+                <xsl:with-param name="HorAlign" select="'Center'"/>
+                <xsl:with-param name="Margin" select="'0,0,10,0'"/>
+                <xsl:with-param name="Text" select="'Maximum: ...'"/>
+                <xsl:with-param name="TextAlignment" select="'Right'"/>
+                <xsl:with-param name="XNameBorder" select="'Max_Border'"/>
+                <xsl:with-param name="XNameTextBlock" select="'Max_Text_Block'"/>
+            </xsl:call-template>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template name="fillCourseTextBlock">
+    <xsl:template name="fillCoursesStudentsTextBlock">
         <xsl:element name="TextBlock">
             <xsl:attribute name="Visibility" select="'Collapsed'"/>
             <xsl:attribute name="x:Name" select="'Course_List'"/>
             
-            <xsl:value-of select="string-join($Courses, '')"/>
+            <xsl:value-of select="string-join($Courses, '|')"/>
+        </xsl:element>
+
+        <xsl:element name="TextBlock">
+            <xsl:attribute name="Visibility" select="'Collapsed'"/>
+            <xsl:attribute name="x:Name" select="'Student_List'"/>
+
+            <xsl:value-of select="string-join($Students, '|')"/>
         </xsl:element>
     </xsl:template>
     <!--######-->
