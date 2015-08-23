@@ -23,19 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StudentView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27302632">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="293" column="5" selection-start-line="293" selection-start-column="5" selection-end-line="293" selection-end-column="5" />
               <folding>
                 <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
                 <element signature="method#init#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-                <element signature="e#4570#4577#0" expanded="false" />
-                <element signature="e#4836#4849#0" expanded="false" />
                 <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
                 <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
                 <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -47,47 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentUtilities.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utilities/StudentUtilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
-              <folding>
-                <element signature="method#getFirstStudent#0;class#StudentUtilities#0" expanded="false" />
-                <element signature="method#getStudents#0;class#StudentUtilities#0" expanded="false" />
-                <element signature="method#getStudentResults#0;class#StudentUtilities#0" expanded="false" />
-                <element signature="method#getCourseResults#0;class#StudentUtilities#0" expanded="false" />
-                <element signature="method#getInteractivityId#0;class#StudentUtilities#0" expanded="false" />
-                <element signature="method#getInteractivityId#1;class#StudentUtilities#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XamlGenerator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XamlGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="334" column="95" selection-start-line="334" selection-start-column="95" selection-end-line="334" selection-end-column="95" />
+            <state vertical-scroll-proportion="0.33223686">
+              <caret line="253" column="26" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="26" />
               <folding>
                 <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="e#3096#3097#0" expanded="true" />
-                <element signature="e#3163#3164#0" expanded="true" />
-                <element signature="e#3478#3479#0" expanded="true" />
-                <element signature="e#3556#3557#0" expanded="true" />
                 <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="e#6641#6642#0" expanded="true" />
-                <element signature="e#6705#6706#0" expanded="true" />
                 <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="e#7273#7274#0" expanded="true" />
-                <element signature="e#7338#7339#0" expanded="true" />
-                <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
                 <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
@@ -104,8 +76,34 @@
         <entry file="file://$PROJECT_DIR$/res/xaml/StudentView.xaml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1833" column="37" selection-start-line="1833" selection-start-column="37" selection-end-line="1833" selection-end-column="37" />
+              <caret line="1715" column="40" selection-start-line="1715" selection-start-column="40" selection-end-line="1715" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathUtilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utilities/MathUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+              <folding>
+                <element signature="method#calculateMean#0;class#MathUtilities#0" expanded="false" />
+                <element signature="method#calculateVariance#0;class#MathUtilities#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListUtilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utilities/ListUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,8 +134,6 @@
         <option value="$PROJECT_DIR$/res/xaml/GridWithRowsAndColums.xaml" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/models.java" />
-        <option value="$PROJECT_DIR$/res/xaml/StudentView.xaml" />
-        <option value="$PROJECT_DIR$/src/utilities/MathUtilities.java" />
         <option value="$PROJECT_DIR$/src/utilities/ListUtilities.java" />
         <option value="$PROJECT_DIR$/src/xml/XmlGenerator.java" />
         <option value="$PROJECT_DIR$/src/models/Student.java" />
@@ -147,6 +143,8 @@
         <option value="$PROJECT_DIR$/../Xsl/ClassView.xsl" />
         <option value="$PROJECT_DIR$/src/xaml/XamlGenerator.java" />
         <option value="$PROJECT_DIR$/src/utilities/StudentUtilities.java" />
+        <option value="$PROJECT_DIR$/res/xaml/StudentView.xaml" />
+        <option value="$PROJECT_DIR$/src/utilities/MathUtilities.java" />
         <option value="$PROJECT_DIR$/src/StudentView.java" />
       </list>
     </option>
@@ -584,7 +582,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="110" />
+      <option name="time" value="113" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -648,8 +646,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -719,8 +715,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -790,8 +784,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -812,8 +804,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -875,8 +865,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -938,8 +926,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -1001,8 +987,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -1064,8 +1048,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -1127,8 +1109,6 @@
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
@@ -1249,13 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/ListUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6273063">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/xaml/CompetenceView.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2269373">
@@ -1267,18 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.52">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/MathUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16803955">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="method#calculateMean#0;class#MathUtilities#0" expanded="false" />
-            <element signature="method#calculateStandardDeviation#0;class#MathUtilities#0" expanded="false" />
-            <element signature="method#calculateVariance#0;class#MathUtilities#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,48 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xaml/StudentView.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1833" column="37" selection-start-line="1833" selection-start-column="37" selection-end-line="1833" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="334" column="95" selection-start-line="334" selection-start-column="95" selection-end-line="334" selection-end-column="95" />
-          <folding>
-            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#3096#3097#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3478#3479#0" expanded="true" />
-            <element signature="e#3556#3557#0" expanded="true" />
-            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#6641#6642#0" expanded="true" />
-            <element signature="e#6705#6706#0" expanded="true" />
-            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7273#7274#0" expanded="true" />
-            <element signature="e#7338#7339#0" expanded="true" />
-            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utilities/StudentUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1425,24 +1344,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/ListUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/MathUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+          <folding>
+            <element signature="method#calculateMean#0;class#MathUtilities#0" expanded="false" />
+            <element signature="method#calculateVariance#0;class#MathUtilities#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xaml/StudentView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1715" column="40" selection-start-line="1715" selection-start-column="40" selection-end-line="1715" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StudentView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27302632">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="293" column="5" selection-start-line="293" selection-start-column="5" selection-end-line="293" selection-end-column="5" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
             <element signature="method#init#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateStudentPanel#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateFunctionButtons#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
-            <element signature="e#4570#4577#0" expanded="false" />
-            <element signature="e#4836#4849#0" expanded="false" />
             <element signature="method#generateStudentBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillStudentGraph#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseBorder#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseMeanAndStandardDeviation#0;class#StudentView#0" expanded="false" />
             <element signature="method#fillCourseTextBlock#0;class#StudentView#0" expanded="false" />
             <element signature="method#main#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33223686">
+          <caret line="253" column="26" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="26" />
+          <folding>
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>

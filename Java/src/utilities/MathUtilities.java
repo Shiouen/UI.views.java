@@ -18,11 +18,11 @@ public class MathUtilities {
     public static double calculateVariance(List<String> doubleStrings) {
         double mean = calculateMean(doubleStrings);
 
-        double squareSum = 0;
+        double squareSum = 0.0;
         for (String s : doubleStrings) {
-            squareSum += Math.pow(Double.parseDouble(s) - mean, 2);
+            squareSum += Math.pow(Double.parseDouble(s) - mean, 2.0);
         }
 
-        return squareSum / (double) (doubleStrings.size() - 1);
+        return squareSum /  (doubleStrings.size() - 1.0);
     }
 }

@@ -5,6 +5,7 @@ import java.util.List;
 import org.jdom2.Element;
 
 import models.Student;
+import utilities.ListUtilities;
 import utilities.MathUtilities;
 import utilities.StudentUtilities;
 import xaml.XamlGenerator;
@@ -13,7 +14,6 @@ import xml.XmlGenerator;
 public class StudentView {
     private String file;
 
-    private Element page;
     private Element grid;
     private Element canvas;
 
@@ -26,15 +26,12 @@ public class StudentView {
     }
 
     private void init() {
-        // page
-        this.page = XamlGenerator.getPage();
-        XamlGenerator.setXNamespace(this.page);
-        this.page.setAttribute("Loaded", "onLoad");
-
         // grid
         String[] rowSizes = { "50", "1*", "40" };
         String[] colSizes = { "110", "8*", "1*" };
-        this.grid = XamlGenerator.getGrid(rowSizes, colSizes, false);
+        this.grid = XamlGenerator.getGrid(rowSizes, colSizes, true);
+        XamlGenerator.setXNamespace(this.grid);
+        this.grid.setAttribute("Loaded", "onLoaded");
 
         // viewbox
         Element viewbox = XamlGenerator.getViewBox();
@@ -48,8 +45,6 @@ public class StudentView {
         viewbox.addContent(this.canvas);
         XamlGenerator.setXName(viewbox, "StudentGraph");
         this.grid.addContent(viewbox);
-
-        this.page.addContent(this.grid);
 
         // load layout
         this.generateFunctionButtons();
@@ -126,27 +121,25 @@ public class StudentView {
     private void generateGraphStructure() {
         double canvasHeight = Double.parseDouble(this.canvas.getAttributeValue("Height"));
 
-        // graph lines
         String x1 = "0";
         String x2 = this.canvas.getAttributeValue("Width");
-        String y;
+        double y;
 
         Element line;
+        Element textblock;
 
-        for (int i = 20;i >= 0;--i) {
-            if (i % 2 != 0) { continue; }
+        for (int lineLabel : ListUtilities.range(0, 21)) {
+            if (lineLabel % 2 != 0) { continue; }
 
             // line
-            // from bottom to top - bottom left is (0, 0) if canvasheight - value
-            y = Double.toString(canvasHeight - (canvasHeight / 20 * i));
-            line = XamlGenerator.getLine(x1, y, x2, y, "Gray", (i % 10 > 0) ? "1" : "3");
+            y = canvasHeight - (canvasHeight / 20 * lineLabel);
+            line = XamlGenerator.getLine(x1, Double.toString(y), x2, Double.toString(y),
+                    "Gray", (lineLabel % 10 > 0) ? "1" : "3");
 
-            // line lable
-            // from top to bottom
-            String labelY = Double.toString((canvasHeight / 20 * i) + 2.5);
-            Element textblock = XamlGenerator.getTextBlock(Integer.toString(i), "10");
+            // line textblock label
+            textblock = XamlGenerator.getTextBlock(Integer.toString(lineLabel), "10");
             textblock.setAttribute("Canvas.Left", "-10");
-            textblock.setAttribute("Canvas.Bottom", labelY);
+            textblock.setAttribute("Canvas.Top", Double.toString(y - 16));
 
             this.canvas.addContent(textblock);
             this.canvas.addContent(line);
@@ -154,7 +147,7 @@ public class StudentView {
     }
     private void generateStudentBlock() {
         // student name
-        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "DemiBold", "Center", "Top");
+        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "SemiBold", "Center", "Top");
 
         textblock.setAttribute("Grid.Column", "1");
         textblock.setAttribute("Grid.Row", "0");
@@ -193,10 +186,10 @@ public class StudentView {
             ++i;
 
             // course border
-            this.fillCourseBorder(course, score, borderWidth, borderHeight, textblockX, 0, canvasHeight, courseBorders);
+            this.fillCourseBorder(course, score, borderWidth, borderHeight, textblockX, canvasHeight, courseBorders);
 
             // textblock
-            this.fillCourseTextBlock(course, textblockX, textblockY, borderWidth, borderHeight, textblocks);
+            this.fillCourseTextBlock(course, textblockX, textblockY, borderWidth, borderHeight, canvasHeight, textblocks);
 
             // mean lines and standard deviation borders
             this.fillCourseMeanAndStandardDeviation(course, borderWidth, textblockX, canvasHeight, lines, deviationBorders);
@@ -208,7 +201,7 @@ public class StudentView {
         this.canvas.addContent(textblocks);
 
     }
-    private void fillCourseBorder(String course, double score, double borderWidth, double borderHeight, double x2, double y,
+    private void fillCourseBorder(String course, double score, double borderWidth, double borderHeight, double x2,
                                   double canvasHeight, List<Element> borders) {
         // set correct border bg color
         String bg = "Yellow";
@@ -220,7 +213,7 @@ public class StudentView {
         // border
         Element border = XamlGenerator.getBorder("0", Double.toString(borderWidth),
                 Double.toString(borderHeight), bg, "0.5");
-        border.setAttribute("Canvas.Bottom", Double.toString(y));
+        border.setAttribute("Canvas.Top", Double.toString(canvasHeight - borderHeight));
         border.setAttribute("Canvas.Left", Double.toString(x1));
 
         Element effect = XamlGenerator.getEffect("Border");
@@ -242,8 +235,7 @@ public class StudentView {
         double standardDeviation = MathUtilities.calculateStandardDeviation(results);
 
         // mean line - adjust mean to canvas size
-        double y = mean * canvasHeight / 20;
-        // lines are drawn from top to bottom, while we work from bottom to top
+        double y = mean * canvasHeight / 20.0;
         y = canvasHeight - y;
         double x1 = x2 - borderWidth;
 
@@ -258,13 +250,13 @@ public class StudentView {
         lines.add(line);
 
         // standard deviation border
-        double borderHeight = standardDeviation * 2;
+        double borderHeight = standardDeviation * 2.0;
         // adjust to canvas sizes
-        borderHeight = borderHeight * canvasHeight / 20;
+        borderHeight = borderHeight * canvasHeight / 20.0;
 
         Element border = XamlGenerator.getBorder("0", Double.toString(borderWidth),
                 Double.toString(borderHeight), "Gray", "0.5");
-        border.setAttribute("Canvas.Bottom",Double.toString(canvasHeight - (y + (standardDeviation * canvasHeight / 20))));
+        border.setAttribute("Canvas.Top",Double.toString(y - (borderHeight / 2.0)));
         border.setAttribute("Canvas.Left", Double.toString(x1));
 
         Element effect = XamlGenerator.getEffect("Border");
@@ -279,22 +271,18 @@ public class StudentView {
         borders.add(border);
     }
     private void fillCourseTextBlock(String course, double x, double y, double textblockWidth, double textblockHeight,
-                                     List<Element> textblocks) {
+                                     double canvasHeight, List<Element> textblocks) {
         Element textblock = XamlGenerator.getTextBlock(course, "16", "White", "Wrap");
 
         textblock.setAttribute("Width", Double.toString(textblockHeight));
         textblock.setAttribute("Height", Double.toString(textblockWidth));
         textblock.setAttribute("TextAlignment", "Center");
 
-        textblock.setAttribute("Canvas.Bottom", Double.toString(y));
+        textblock.setAttribute("Canvas.Top", Double.toString(canvasHeight - y - textblockHeight));
         textblock.setAttribute("Canvas.Left", Double.toString(x));
 
-        Element layoutTransform = XamlGenerator.getLayoutTransform("TextBlock");
-        layoutTransform.addContent(XamlGenerator.getRotateTransform("90"));
-        textblock.addContent(layoutTransform);
-
         Element renderTransform = XamlGenerator.getRenderTransform("TextBlock");
-        renderTransform.addContent(XamlGenerator.getTranslateTransform(Double.toString(-(textblockWidth)), "0"));
+        renderTransform.addContent(XamlGenerator.getRotateTransform("90"));
         textblock.addContent(renderTransform);
 
         // interactivity
@@ -305,9 +293,8 @@ public class StudentView {
         textblocks.add(textblock);
     }
 
-
     public void write() {
-        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.page), "StudentView.xaml", "xaml");
+        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.grid), "StudentView.xaml", "xaml");
     }
 
     public static void main(String[] args) {
