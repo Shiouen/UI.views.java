@@ -113,7 +113,10 @@ public class StudentView {
 
             // interactivity
             String functionName = function.equals("Minimum en maximum") ? "Min_Max" : "Mean_StdDev";
-            XamlGenerator.setXName(border, functionName);
+
+            XamlGenerator.setXName(textblock, functionName + "_Text");
+            XamlGenerator.setXName(border, functionName + "_Border");
+
             border.setAttribute("MouseLeftButtonUp", functionName.equals("Min_Max") ? "toggleMinMax" : "toggleMeansStdDevs");
 
             stack.addContent(border);

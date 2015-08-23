@@ -26,8 +26,8 @@
       <file leaf-file-name="StudentView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StudentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06044905">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7565789">
+              <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
               <folding>
                 <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
                 <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
@@ -257,6 +257,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,8 +344,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,7 +604,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -616,7 +616,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284055" sideWeight="0.74" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16197917" sideWeight="0.48996833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16197917" sideWeight="0.48996833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -677,31 +677,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -742,31 +770,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="265" column="0" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,31 +863,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,31 +957,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -930,31 +1042,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -987,31 +1127,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1044,31 +1212,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1101,31 +1297,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1158,31 +1382,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="77" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1199,31 +1451,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
+            <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#getEffect#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4941#4942#0" expanded="true" />
+            <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="method#setXNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7188#7189#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="method#getPage#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7842#7843#0" expanded="true" />
-            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getPage#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1288,10 +1568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14798695">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="method#Competence#0;class#Competence#0" expanded="false" />
-            <element signature="method#Competence#1;class#Competence#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,7 +1583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="7.750816">
           <caret line="419" column="66" selection-start-line="419" selection-start-column="66" selection-end-line="419" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,20 +1590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="283" column="5" selection-start-line="283" selection-start-column="5" selection-end-line="283" selection-end-column="5" />
-          <folding>
-            <element signature="method#CompetenceView#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#init#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#generateGraphStructure#0;class#CompetenceView#0" expanded="false" />
-            <element signature="e#2187#2205#0" expanded="false" />
-            <element signature="e#3182#3198#0" expanded="false" />
-            <element signature="method#generateStudentBlock#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#generateStudentScrollViewer#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#fillGraphCompetences#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#fillGraphCompetenceTextBlocks#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#fillGraphMeanLines#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#write#0;class#CompetenceView#0" expanded="false" />
-            <element signature="method#main#0;class#CompetenceView#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1474,14 +1735,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1748" column="146" selection-start-line="1748" selection-start-column="143" selection-end-line="1748" selection-end-column="146" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StudentView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06044905">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7565789">
+          <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
           <folding>
             <element signature="method#StudentView#0;class#StudentView#0" expanded="false" />
             <element signature="method#generateGraphStructure#0;class#StudentView#0" expanded="false" />
