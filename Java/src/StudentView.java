@@ -303,6 +303,7 @@ public class StudentView {
 
         textblock.setAttribute("Width", Double.toString(textblockHeight));
         textblock.setAttribute("Height", Double.toString(textblockWidth));
+        textblock.setAttribute("Padding", "10,0,10,0");
         textblock.setAttribute("TextAlignment", "Center");
 
         textblock.setAttribute("Canvas.Top", Double.toString(canvasHeight - y - textblockHeight));

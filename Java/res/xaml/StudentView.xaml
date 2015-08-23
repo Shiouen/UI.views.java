@@ -144,61 +144,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Fred_Sanchez_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Fred_Sanchez_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Fred_Sanchez_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="198.0" Height="50.0" TextAlignment="Center" Canvas.Top="202.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="198.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="202.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="368.80000000000007" Height="50.0" TextAlignment="Center" Canvas.Top="31.199999999999932" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="368.80000000000007" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="31.199999999999932" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="244.0" Height="50.0" TextAlignment="Center" Canvas.Top="156.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="244.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="156.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="190.0" Height="50.0" TextAlignment="Center" Canvas.Top="210.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="190.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="210.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="162.0" Height="50.0" TextAlignment="Center" Canvas.Top="238.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="162.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="238.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="316.0" Height="50.0" TextAlignment="Center" Canvas.Top="84.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="316.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="84.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="188.0" Height="50.0" TextAlignment="Center" Canvas.Top="212.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="188.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="212.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="134.0" Height="50.0" TextAlignment="Center" Canvas.Top="266.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="134.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="266.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="276.0" Height="50.0" TextAlignment="Center" Canvas.Top="124.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Fred_Sanchez_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="276.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="124.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Fred_Sanchez_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="166.00000000000003" Height="50.0" TextAlignment="Center" Canvas.Top="233.99999999999997" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="166.00000000000003" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="233.99999999999997" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Fred_Sanchez_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -314,61 +314,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Lois_Weaver_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Lois_Weaver_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Lois_Weaver_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="314.0" Height="50.0" TextAlignment="Center" Canvas.Top="86.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Lois_Weaver_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="314.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="86.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Lois_Weaver_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="156.8" Height="50.0" TextAlignment="Center" Canvas.Top="243.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Lois_Weaver_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="156.8" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="243.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Lois_Weaver_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="104.0" Height="50.0" TextAlignment="Center" Canvas.Top="296.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Lois_Weaver_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="104.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="296.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Lois_Weaver_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="234.0" Height="50.0" TextAlignment="Center" Canvas.Top="166.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Lois_Weaver_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="234.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="166.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Lois_Weaver_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="60.0" Height="50.0" TextAlignment="Center" Canvas.Top="340.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Lois_Weaver_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="60.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="340.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Lois_Weaver_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="302.0" Height="50.0" TextAlignment="Center" Canvas.Top="98.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Lois_Weaver_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="302.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="98.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Lois_Weaver_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="42.0" Height="50.0" TextAlignment="Center" Canvas.Top="358.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Lois_Weaver_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="42.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="358.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Lois_Weaver_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="334.0" Height="50.0" TextAlignment="Center" Canvas.Top="66.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Lois_Weaver_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="334.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="66.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Lois_Weaver_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="74.0" Height="50.0" TextAlignment="Center" Canvas.Top="326.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Lois_Weaver_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="74.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="326.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Lois_Weaver_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="152.0" Height="50.0" TextAlignment="Center" Canvas.Top="248.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Lois_Weaver_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="152.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="248.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Lois_Weaver_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -484,61 +484,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Denise_Andrews_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Denise_Andrews_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Denise_Andrews_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="122.0" Height="50.0" TextAlignment="Center" Canvas.Top="278.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Denise_Andrews_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="122.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="278.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Denise_Andrews_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="244.4" Height="50.0" TextAlignment="Center" Canvas.Top="155.6" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Denise_Andrews_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="244.4" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="155.6" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Denise_Andrews_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="58.0" Height="50.0" TextAlignment="Center" Canvas.Top="342.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Denise_Andrews_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="58.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="342.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Denise_Andrews_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="232.0" Height="50.0" TextAlignment="Center" Canvas.Top="168.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Denise_Andrews_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="232.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="168.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Denise_Andrews_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="210.0" Height="50.0" TextAlignment="Center" Canvas.Top="190.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Denise_Andrews_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="210.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="190.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Denise_Andrews_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="234.0" Height="50.0" TextAlignment="Center" Canvas.Top="166.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Denise_Andrews_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="234.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="166.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Denise_Andrews_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="50.0" Height="50.0" TextAlignment="Center" Canvas.Top="350.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Denise_Andrews_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="50.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="350.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Denise_Andrews_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="228.0" Height="50.0" TextAlignment="Center" Canvas.Top="172.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Denise_Andrews_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="228.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="172.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Denise_Andrews_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="377.99999999999994" Height="50.0" TextAlignment="Center" Canvas.Top="22.000000000000057" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Denise_Andrews_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="377.99999999999994" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="22.000000000000057" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Denise_Andrews_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="163.99999999999997" Height="50.0" TextAlignment="Center" Canvas.Top="236.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Denise_Andrews_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="163.99999999999997" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="236.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Denise_Andrews_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -654,61 +654,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Charles_Butler_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Charles_Butler_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Charles_Butler_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="374.0" Height="50.0" TextAlignment="Center" Canvas.Top="26.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Charles_Butler_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="374.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="26.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Charles_Butler_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="372.2" Height="50.0" TextAlignment="Center" Canvas.Top="27.80000000000001" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Charles_Butler_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="372.2" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="27.80000000000001" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Charles_Butler_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="173.99999999999997" Height="50.0" TextAlignment="Center" Canvas.Top="226.00000000000003" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Charles_Butler_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="173.99999999999997" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="226.00000000000003" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Charles_Butler_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="280.0" Height="50.0" TextAlignment="Center" Canvas.Top="120.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Charles_Butler_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="280.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="120.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Charles_Butler_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="172.0" Height="50.0" TextAlignment="Center" Canvas.Top="228.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Charles_Butler_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="172.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="228.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Charles_Butler_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="270.0" Height="50.0" TextAlignment="Center" Canvas.Top="130.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Charles_Butler_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="270.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="130.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Charles_Butler_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="168.0" Height="50.0" TextAlignment="Center" Canvas.Top="232.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Charles_Butler_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="168.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="232.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Charles_Butler_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="64.0" Height="50.0" TextAlignment="Center" Canvas.Top="336.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Charles_Butler_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="64.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="336.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Charles_Butler_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="192.0" Height="50.0" TextAlignment="Center" Canvas.Top="208.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Charles_Butler_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="192.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="208.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Charles_Butler_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="140.0" Height="50.0" TextAlignment="Center" Canvas.Top="260.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Charles_Butler_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="140.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="260.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Charles_Butler_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -824,61 +824,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Joan_Willis_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Joan_Willis_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Joan_Willis_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="45.99999999999999" Height="50.0" TextAlignment="Center" Canvas.Top="354.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Joan_Willis_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="45.99999999999999" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="354.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Joan_Willis_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="113.8" Height="50.0" TextAlignment="Center" Canvas.Top="286.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Joan_Willis_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="113.8" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="286.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Joan_Willis_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="152.0" Height="50.0" TextAlignment="Center" Canvas.Top="248.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Joan_Willis_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="152.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="248.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Joan_Willis_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="397.99999999999994" Height="50.0" TextAlignment="Center" Canvas.Top="2.000000000000057" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Joan_Willis_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="397.99999999999994" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="2.000000000000057" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Joan_Willis_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="120.0" Height="50.0" TextAlignment="Center" Canvas.Top="280.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Joan_Willis_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="120.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="280.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Joan_Willis_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="284.0" Height="50.0" TextAlignment="Center" Canvas.Top="116.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Joan_Willis_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="284.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="116.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Joan_Willis_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="282.0" Height="50.0" TextAlignment="Center" Canvas.Top="118.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Joan_Willis_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="282.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="118.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Joan_Willis_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="202.0" Height="50.0" TextAlignment="Center" Canvas.Top="198.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Joan_Willis_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="202.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="198.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Joan_Willis_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="246.0" Height="50.0" TextAlignment="Center" Canvas.Top="154.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Joan_Willis_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="246.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="154.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Joan_Willis_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="163.99999999999997" Height="50.0" TextAlignment="Center" Canvas.Top="236.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Joan_Willis_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="163.99999999999997" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="236.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Joan_Willis_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -994,61 +994,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Patrick_Bailey_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Patrick_Bailey_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Patrick_Bailey_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="148.0" Height="50.0" TextAlignment="Center" Canvas.Top="252.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="148.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="252.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="361.19999999999993" Height="50.0" TextAlignment="Center" Canvas.Top="38.80000000000007" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="361.19999999999993" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="38.80000000000007" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="91.99999999999999" Height="50.0" TextAlignment="Center" Canvas.Top="308.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="91.99999999999999" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="308.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="346.0" Height="50.0" TextAlignment="Center" Canvas.Top="54.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="346.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="54.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="72.0" Height="50.0" TextAlignment="Center" Canvas.Top="328.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="72.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="328.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="268.0" Height="50.0" TextAlignment="Center" Canvas.Top="132.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="268.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="132.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="176.00000000000003" Height="50.0" TextAlignment="Center" Canvas.Top="223.99999999999997" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="176.00000000000003" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="223.99999999999997" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="14.0" Height="50.0" TextAlignment="Center" Canvas.Top="386.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="14.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="386.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="84.0" Height="50.0" TextAlignment="Center" Canvas.Top="316.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Patrick_Bailey_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="84.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="316.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Patrick_Bailey_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="146.0" Height="50.0" TextAlignment="Center" Canvas.Top="254.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="146.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="254.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Patrick_Bailey_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -1164,61 +1164,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Michael_Elliott_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Michael_Elliott_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Michael_Elliott_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="294.0" Height="50.0" TextAlignment="Center" Canvas.Top="106.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Michael_Elliott_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="294.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="106.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Michael_Elliott_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="163.8" Height="50.0" TextAlignment="Center" Canvas.Top="236.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Michael_Elliott_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="163.8" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="236.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Michael_Elliott_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="278.0" Height="50.0" TextAlignment="Center" Canvas.Top="122.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Michael_Elliott_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="278.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="122.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Michael_Elliott_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="364.0" Height="50.0" TextAlignment="Center" Canvas.Top="36.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Michael_Elliott_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="364.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="36.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Michael_Elliott_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="48.0" Height="50.0" TextAlignment="Center" Canvas.Top="352.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Michael_Elliott_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="48.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="352.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Michael_Elliott_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="200.0" Height="50.0" TextAlignment="Center" Canvas.Top="200.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Michael_Elliott_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="200.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="200.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Michael_Elliott_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="268.0" Height="50.0" TextAlignment="Center" Canvas.Top="132.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Michael_Elliott_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="268.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="132.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Michael_Elliott_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="8.0" Height="50.0" TextAlignment="Center" Canvas.Top="392.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Michael_Elliott_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="8.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="392.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Michael_Elliott_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="384.0" Height="50.0" TextAlignment="Center" Canvas.Top="16.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Michael_Elliott_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="384.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="16.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Michael_Elliott_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="203.99999999999997" Height="50.0" TextAlignment="Center" Canvas.Top="196.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Michael_Elliott_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="203.99999999999997" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="196.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Michael_Elliott_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -1334,61 +1334,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Wanda_Bailey_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Wanda_Bailey_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Wanda_Bailey_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="228.0" Height="50.0" TextAlignment="Center" Canvas.Top="172.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="228.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="172.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="291.6" Height="50.0" TextAlignment="Center" Canvas.Top="108.39999999999998" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="291.6" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="108.39999999999998" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="94.0" Height="50.0" TextAlignment="Center" Canvas.Top="306.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="94.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="306.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="318.0" Height="50.0" TextAlignment="Center" Canvas.Top="82.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="318.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="82.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="158.0" Height="50.0" TextAlignment="Center" Canvas.Top="242.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="158.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="242.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="314.0" Height="50.0" TextAlignment="Center" Canvas.Top="86.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="314.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="86.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="78.0" Height="50.0" TextAlignment="Center" Canvas.Top="322.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="78.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="322.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="114.0" Height="50.0" TextAlignment="Center" Canvas.Top="286.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="114.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="286.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="248.0" Height="50.0" TextAlignment="Center" Canvas.Top="152.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Wanda_Bailey_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="248.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="152.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Wanda_Bailey_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="150.0" Height="50.0" TextAlignment="Center" Canvas.Top="250.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="150.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="250.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Wanda_Bailey_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -1504,61 +1504,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Bonnie_Collins_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Bonnie_Collins_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="Bonnie_Collins_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="38.0" Height="50.0" TextAlignment="Center" Canvas.Top="362.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="38.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="362.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="113.8" Height="50.0" TextAlignment="Center" Canvas.Top="286.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="113.8" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="286.2" Canvas.Left="160.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="64.0" Height="50.0" TextAlignment="Center" Canvas.Top="336.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="64.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="336.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="298.0" Height="50.0" TextAlignment="Center" Canvas.Top="102.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="298.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="102.0" Canvas.Left="320.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="158.0" Height="50.0" TextAlignment="Center" Canvas.Top="242.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="158.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="242.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="274.0" Height="50.0" TextAlignment="Center" Canvas.Top="126.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="274.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="126.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="232.0" Height="50.0" TextAlignment="Center" Canvas.Top="168.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="232.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="168.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="100.0" Height="50.0" TextAlignment="Center" Canvas.Top="300.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="100.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="300.0" Canvas.Left="640.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="278.0" Height="50.0" TextAlignment="Center" Canvas.Top="122.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Bonnie_Collins_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="278.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="122.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="Bonnie_Collins_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="142.0" Height="50.0" TextAlignment="Center" Canvas.Top="258.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="142.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="258.0" Canvas.Left="800.0" Visibility="Collapsed" x:Name="Bonnie_Collins_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
@@ -1674,61 +1674,61 @@
       <Line X1="590.0" Y1="260.79999999999995" X2="640.0" Y2="260.79999999999995" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="John_Black_Software_engineering_1_Mean_Line" />
       <Line X1="670.0" Y1="171.59999999999997" X2="720.0" Y2="171.59999999999997" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="John_Black_User_interfaces_1_Mean_Line" />
       <Line X1="750.0" Y1="237.8" X2="800.0" Y2="237.8" Stroke="Black" StrokeThickness="3" Visibility="Collapsed" x:Name="John_Black_Management_accounting_Mean_Line" />
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="132.0" Height="50.0" TextAlignment="Center" Canvas.Top="268.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="John_Black_Computersystemen_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="132.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="268.0" Canvas.Left="80.0" Visibility="Collapsed" x:Name="John_Black_Computersystemen_1_Text">
         Computersystemen 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="342.4" Height="50.0" TextAlignment="Center" Canvas.Top="57.60000000000002" Canvas.Left="160.0" Visibility="Collapsed" x:Name="John_Black_Databanken_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="342.4" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="57.60000000000002" Canvas.Left="160.0" Visibility="Collapsed" x:Name="John_Black_Databanken_1_Text">
         Databanken 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="270.0" Height="50.0" TextAlignment="Center" Canvas.Top="130.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="John_Black_Engels_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="270.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="130.0" Canvas.Left="240.0" Visibility="Collapsed" x:Name="John_Black_Engels_Text">
         Engels
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="352.00000000000006" Height="50.0" TextAlignment="Center" Canvas.Top="47.99999999999994" Canvas.Left="320.0" Visibility="Collapsed" x:Name="John_Black_Frans_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="352.00000000000006" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="47.99999999999994" Canvas.Left="320.0" Visibility="Collapsed" x:Name="John_Black_Frans_Text">
         Frans
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="200.0" Height="50.0" TextAlignment="Center" Canvas.Top="200.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="John_Black_Boekhoudkundig_inzicht_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="200.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="200.0" Canvas.Left="400.0" Visibility="Collapsed" x:Name="John_Black_Boekhoudkundig_inzicht_Text">
         Boekhoudkundig inzicht
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="240.0" Height="50.0" TextAlignment="Center" Canvas.Top="160.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="John_Black_Netwerken1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="240.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="160.0" Canvas.Left="480.0" Visibility="Collapsed" x:Name="John_Black_Netwerken1_Text">
         Netwerken1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="268.0" Height="50.0" TextAlignment="Center" Canvas.Top="132.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="John_Black_Programmeren_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="268.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="132.0" Canvas.Left="560.0" Visibility="Collapsed" x:Name="John_Black_Programmeren_1_Text">
         Programmeren 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="193.99999999999997" Height="50.0" TextAlignment="Center" Canvas.Top="206.00000000000003" Canvas.Left="640.0" Visibility="Collapsed" x:Name="John_Black_Software_engineering_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="193.99999999999997" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="206.00000000000003" Canvas.Left="640.0" Visibility="Collapsed" x:Name="John_Black_Software_engineering_1_Text">
         Software engineering 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="124.0" Height="50.0" TextAlignment="Center" Canvas.Top="276.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="John_Black_User_interfaces_1_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="124.0" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="276.0" Canvas.Left="720.0" Visibility="Collapsed" x:Name="John_Black_User_interfaces_1_Text">
         User interfaces 1
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
         </TextBlock.RenderTransform>
       </TextBlock>
-      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="193.99999999999997" Height="50.0" TextAlignment="Center" Canvas.Top="206.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="John_Black_Management_accounting_Text">
+      <TextBlock FontSize="16" Foreground="White" TextWrapping="Wrap" Width="193.99999999999997" Height="50.0" Padding="10,0,10,0" TextAlignment="Center" Canvas.Top="206.00000000000003" Canvas.Left="800.0" Visibility="Collapsed" x:Name="John_Black_Management_accounting_Text">
         Management accounting
         <TextBlock.RenderTransform>
           <RotateTransform Angle="90" />
