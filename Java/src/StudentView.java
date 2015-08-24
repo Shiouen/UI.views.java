@@ -322,7 +322,9 @@ public class StudentView {
     }
 
     public void write() {
-        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.grid), "StudentView.xaml", "xaml");
+        // write to resources
+        //XmlGenerator.writeDocument(XmlGenerator.getDocument(this.grid), "StudentView.xaml", "xaml");
+        XmlGenerator.writeStudentViewDocument(XmlGenerator.getDocument(this.grid));
     }
 
     public static void main(String[] args) {

@@ -285,7 +285,9 @@ public class CompetenceView {
     }
 
     public void write() {
-        XmlGenerator.writeDocument(XmlGenerator.getDocument(this.page), "CompetenceView.xaml", "xaml");
+        // write to resources
+        //XmlGenerator.writeDocument(XmlGenerator.getDocument(this.page), "CompetenceView.xaml", "xaml");
+        XmlGenerator.writeCompetenceViewDocument(XmlGenerator.getDocument(this.page));
     }
 
     public static void main(String[] args) {

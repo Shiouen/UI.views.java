@@ -30,6 +30,30 @@ public class XmlGenerator {
         return doc;
     }
 
+    public static void writeStudentViewDocument(Document doc) {
+        try {
+            XMLOutputter xmlOutput = new XMLOutputter();
+            xmlOutput.setFormat(Format.getPrettyFormat());
+
+            File f = new File("../StudentView/SilverlightJavascript Sjabloon Project Scherm/SilverlightJavascript.Web/Xaml/StudentView.xaml");
+
+            xmlOutput.output(doc, new FileWriter(f.getAbsoluteFile()));
+        } catch (Exception ex) {
+            System.err.println(ex.getMessage());
+        }
+    }
+    public static void writeCompetenceViewDocument(Document doc) {
+        try {
+            XMLOutputter xmlOutput = new XMLOutputter();
+            xmlOutput.setFormat(Format.getPrettyFormat());
+
+            File f = new File("../CompetenceView/SilverlightCSharp Sjabloon CompetenceView/SilverlightCSharp/Views/CompetenceView.xaml");
+
+            xmlOutput.output(doc, new FileWriter(f.getAbsoluteFile()));
+        } catch (Exception ex) {
+            System.err.println(ex.getMessage());
+        }
+    }
     public static void writeDocument(Document doc, String name, String res) {
         try {
             XMLOutputter xmlOutput = new XMLOutputter();
