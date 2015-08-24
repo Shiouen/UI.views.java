@@ -25,105 +25,7 @@
     <favorites_list name="StudentView" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CompetenceView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompetenceView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2113" max-vertical-offset="4947">
-              <caret line="146" column="13" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XamlGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="1632">
-              <caret line="225" column="59" selection-start-line="225" selection-start-column="59" selection-end-line="225" selection-end-column="59" />
-              <folding>
-                <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGradientBackground#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getBorder#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getBorder#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getBorder#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getBorder#2;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getSolidColorBrush#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getLinearGradientBrush#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGradientStop#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGradientStop#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getCanvas#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getCanvas#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getEffect#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getDropShadowEffect#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getGrid#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGrid#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGrid#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGridRows#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getGridColumns#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="e#7692#7693#0" expanded="true" />
-                <element signature="e#7757#7758#0" expanded="true" />
-                <element signature="e#7805#7806#0" expanded="true" />
-                <element signature="e#7873#7874#0" expanded="true" />
-                <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTextBlock#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTextBlock#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTextBlock#2;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTextBlock#3;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTextBlock#4;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTextBlock#5;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getLayoutTransform#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getRenderTransform#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
-                <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompetenceUtilities.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utilities/CompetenceUtilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8196721" vertical-offset="212" max-vertical-offset="1292">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompetenceView.xaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/xaml/CompetenceView.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1034484" vertical-offset="3745" max-vertical-offset="8194">
-              <caret line="229" column="64" selection-start-line="229" selection-start-column="60" selection-end-line="229" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,10 +57,10 @@
         <option value="$PROJECT_DIR$/../Xsl/before interact/ClassView.xsl" />
         <option value="$PROJECT_DIR$/../Xsl/before interact/ClassViewWorkIt.xsl" />
         <option value="$PROJECT_DIR$/../Xsl/ClassView.xsl" />
-        <option value="$PROJECT_DIR$/src/utilities/CompetenceUtilities.java" />
-        <option value="$PROJECT_DIR$/src/xaml/XamlGenerator.java" />
         <option value="$PROJECT_DIR$/res/xaml/CompetenceView.xaml" />
         <option value="$PROJECT_DIR$/src/CompetenceView.java" />
+        <option value="$PROJECT_DIR$/src/utilities/CompetenceUtilities.java" />
+        <option value="$PROJECT_DIR$/src/xaml/XamlGenerator.java" />
       </list>
     </option>
   </component>
@@ -213,38 +115,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentCompetenceViews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentCompetenceViews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xaml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,16 +368,16 @@
       <workItem from="1440015764123" duration="9354000" />
       <workItem from="1440121205226" duration="122000" />
       <workItem from="1440150890589" duration="2099000" />
-      <workItem from="1440378586535" duration="3767000" />
+      <workItem from="1440378586535" duration="11619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91402000" />
+    <option name="totallyTimeSpent" value="99254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,10 +389,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39895698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32724902" sideWeight="0.74" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724902" sideWeight="0.74" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.161875" sideWeight="0.48996833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.161875" sideWeight="0.48996833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -558,7 +428,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="121" />
+      <option name="time" value="122" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -608,7 +478,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -695,7 +565,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -782,7 +652,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -864,7 +734,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -943,7 +813,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -1022,7 +892,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -1101,7 +971,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -1180,7 +1050,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -1259,7 +1129,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -1328,7 +1198,7 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
+            <element signature="docComment;method#setDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
@@ -1500,10 +1370,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.8913937" vertical-offset="151" max-vertical-offset="5474">
+          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
+          <folding>
+            <element signature="method#main#0;class#StudentView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xaml/CompetenceView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8194">
+          <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+          <folding>
+            <marker date="1440410699331" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/xaml/XamlGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="1632">
-          <caret line="225" column="59" selection-start-line="225" selection-start-column="59" selection-end-line="225" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.30327868" vertical-offset="1552" max-vertical-offset="2397">
+          <caret line="371" column="58" selection-start-line="371" selection-start-column="58" selection-end-line="371" selection-end-column="58" />
           <folding>
             <element signature="docComment;method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getSolidBackground#0;class#XamlGenerator#0" expanded="false" />
@@ -1529,17 +1419,13 @@
             <element signature="docComment;method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getLine#1;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#setNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getDefaultNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getFunctionNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getNavigationNamespace#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getXNamespace#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="e#7692#7693#0" expanded="true" />
-            <element signature="e#7757#7758#0" expanded="true" />
-            <element signature="e#7805#7806#0" expanded="true" />
-            <element signature="e#7873#7874#0" expanded="true" />
+            <element signature="method#getNavigationPage#0;class#XamlGenerator#0" expanded="false" />
             <element signature="docComment;method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getScrollViewer#0;class#XamlGenerator#0" expanded="false" />
             <element signature="docComment;method#getStackPanel#0;class#XamlGenerator#0" expanded="false" />
@@ -1557,44 +1443,31 @@
             <element signature="method#getRotateTransform#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getRotateTransform#1;class#XamlGenerator#0" expanded="false" />
             <element signature="method#getTranslateTransform#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#getViewBox#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#hide#0;class#XamlGenerator#0" expanded="false" />
             <element signature="method#hide#0;class#XamlGenerator#0" expanded="false" />
-            <element signature="docComment;method#setXName#0;class#XamlGenerator#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.8913937" vertical-offset="151" max-vertical-offset="5474">
-          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
-          <folding>
-            <element signature="method#main#0;class#StudentView#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xaml/CompetenceView.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1034484" vertical-offset="3745" max-vertical-offset="8194">
-          <caret line="229" column="64" selection-start-line="229" selection-start-column="60" selection-end-line="229" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompetenceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2113" max-vertical-offset="4947">
-          <caret line="146" column="13" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utilities/CompetenceUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8196721" vertical-offset="212" max-vertical-offset="1292">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.69262296" vertical-offset="2" max-vertical-offset="663">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="method#scaleMeans#0;class#CompetenceUtilities#0" expanded="false" />
+            <element signature="method#fillLine#0;class#CompetenceUtilities#0" expanded="false" />
+            <element signature="method#getCompetences#0;class#CompetenceUtilities#0" expanded="false" />
+            <element signature="method#getCompetenceMean#0;class#CompetenceUtilities#0" expanded="false" />
+            <element signature="method#getFirstStudent#0;class#CompetenceUtilities#0" expanded="false" />
+            <element signature="method#getStudents#0;class#CompetenceUtilities#0" expanded="false" />
+            <element signature="method#getStudentCompetenceMean#0;class#CompetenceUtilities#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompetenceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46311477" vertical-offset="4160" max-vertical-offset="4930">
+          <caret line="269" column="36" selection-start-line="269" selection-start-column="36" selection-end-line="269" selection-end-column="36" />
           <folding />
         </state>
       </provider>

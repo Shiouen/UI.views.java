@@ -39,9 +39,7 @@ public class CompetenceView {
 
     private void init() {
         // page
-        this.page = XamlGenerator.getNavigationPage();
-        XamlGenerator.setXNamespace(this.page);
-        XamlGenerator.setNavigationNamespace(this.page);
+        this.page = XamlGenerator.getNavigationPage("SilverlightCSharp.Views.CompetenceView", "CompetenceView");
 
         // grid
         String[] rowSizes = {"50", "1*", "40"};
@@ -169,6 +167,7 @@ public class CompetenceView {
             // interactivity
             XamlGenerator.setXName(border, student.replace(" ", "_") + "_Border");
             XamlGenerator.setXName(border, student.replace(" ", "_") + "_Text_Block");
+            border.setAttribute("MouseLeftButtonUp", "SelectStudent");
 
             stack.addContent(border);
         }
@@ -202,21 +201,21 @@ public class CompetenceView {
 
             switch (competence.getName()) {
                 case "Communiceren":
-                    x = centerX - 90.0;y = 35.0;
+                    x = centerX - 90.0;y = -20;
                     break;
                 case "Management":
-                    x = canvasWidth / 12.0;y = centerY + 60.0;
+                    x = canvasWidth / 12.0;y = centerY + 10.0;
                     break;
                 case "Implementatie":
-                    x = centerX - 90.0;y = -10.0;
+                    x = centerX - 90.0;y = canvasHeight - 35.0;
                     break;
                 case "AnalyseOntwerp":
-                    x = canvasWidth / 1.47;y = centerY + 60.0;
+                    x = canvasWidth / 1.47;y = centerY + 10.0;
                     break;
                 default:
                     x = 0;y=0;break;
             }
-            textblock.setAttribute("Canvas.Top", Double.toString(canvasHeight - y));
+            textblock.setAttribute("Canvas.Top", Double.toString(y));
             textblock.setAttribute("Canvas.Left", Double.toString(x));
 
             this.canvas.addContent(textblock);

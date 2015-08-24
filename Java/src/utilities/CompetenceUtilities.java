@@ -31,8 +31,8 @@ public class CompetenceUtilities {
         lines.add(XamlGenerator.getLine(x1, y1, x2, y2, brush, brushThickness));
     }
     public static void fillLine(double centerX, double centerY, double x, double y,
-                                List<Element> lines, String brush, String brushThickness,
-                                String visibility, String xName) {
+                                     List<Element> lines, String brush, String brushThickness,
+                                     String visibility, String xName) {
         String x1 = Double.toString(centerX + x);
         String x2 = Double.toString(centerX);
         String y1 = Double.toString(centerY);
@@ -41,8 +41,12 @@ public class CompetenceUtilities {
         Element line = XamlGenerator.getLine(x1, y1, x2, y2, brush, brushThickness, visibility);
         XamlGenerator.setXName(line, xName);
 
+        // animations
+        line.addContent(XamlGenerator.getTriggers("Line", xName));
+
         lines.add(line);
     }
+
     public static List<Competence> getCompetences(String file) {
         List<String> competenceNames = XmlGenerator.searchUniqueContents("//Competence", file);
         List<Competence> competences  = new ArrayList<>();

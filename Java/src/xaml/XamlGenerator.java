@@ -194,6 +194,9 @@ public class XamlGenerator {
     /**
      * NAMESPACES *
      */
+    public static void setDefaultNamespace(Element control) {
+        control.addNamespaceDeclaration(getDefaultNamespace());
+    }
     public static void setFunctionNamespace(Element control) {
         control.addNamespaceDeclaration(getFunctionNamespace());
     }
@@ -222,8 +225,14 @@ public class XamlGenerator {
     public static Element getPage() {
         return new Element("Page", getDefaultNamespace());
     }
-    public static Element getNavigationPage() {
-        return new Element("Page", getNavigationNamespace());
+    public static Element getNavigationPage(String className, String title) {
+        Element page = new Element("Page", getNavigationNamespace());
+        setDefaultNamespace(page);
+        setXNamespace(page);
+
+        page.setAttribute("Title", title);
+        page.setAttribute("Class", className, getXNamespace());
+        return page;
     }
 
     /**
@@ -339,6 +348,46 @@ public class XamlGenerator {
         rotate.setAttribute("Y", y);
 
         return rotate;
+    }
+
+    /**
+     * TRIGGERS *
+     */
+    /*          <Line.Triggers>
+            <EventTrigger>
+              <BeginStoryboard>
+                <Storyboard x:Name="Russell_Lawrence_Line4_SB">
+                  <DoubleAnimation x:Name="Russell_Lawrence_Line4_A1" Storyboard.TargetName="Russell_Lawrence_Line4" Storyboard.TargetProperty="X1" />
+                  <DoubleAnimation x:Name="Russell_Lawrence_Line4_A2" Storyboard.TargetName="Russell_Lawrence_Line4" Storyboard.TargetProperty="Y1" />
+                  <DoubleAnimation x:Name="Russell_Lawrence_Line4_A3" Storyboard.TargetName="Russell_Lawrence_Line4" Storyboard.TargetProperty="X2" />
+                  <DoubleAnimation x:Name="Russell_Lawrence_Line4_A4" Storyboard.TargetName="Russell_Lawrence_Line4" Storyboard.TargetProperty="Y2" />
+                </Storyboard>
+              </BeginStoryboard>
+            </EventTrigger>
+          </Line.Triggers>*/
+    public static Element getTriggers(String control, String xNamePart) {
+        Element controlTriggers = new Element(control + ".Triggers", getDefaultNamespace());
+
+        Element eventTrigger = new Element("EventTrigger", getDefaultNamespace());
+        Element beginStoryboard = new Element("BeginStoryboard", getDefaultNamespace());
+
+        Element storyboard = new Element("Storyboard", getDefaultNamespace());
+        setXName(storyboard, xNamePart + "_SB");
+
+        String[] targetProperties = { "X1", "Y1", "X2", "Y2" };
+        for (int i = 1; i < 5; ++i) {
+            Element doubleAnimation = new Element("DoubleAnimation", getDefaultNamespace());
+            doubleAnimation.setAttribute("Storyboard.TargetName", xNamePart);
+            doubleAnimation.setAttribute("Storyboard.TargetProperty", targetProperties[i-1]);
+            setXName(doubleAnimation, xNamePart + "_A" + i);
+
+            storyboard.addContent(doubleAnimation);
+        }
+        beginStoryboard.addContent(storyboard);
+        eventTrigger.addContent(beginStoryboard);
+        controlTriggers.addContent(eventTrigger);
+
+        return controlTriggers;
     }
 
     /**
