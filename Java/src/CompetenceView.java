@@ -39,8 +39,9 @@ public class CompetenceView {
 
     private void init() {
         // page
-        this.page = XamlGenerator.getPage();
+        this.page = XamlGenerator.getNavigationPage();
         XamlGenerator.setXNamespace(this.page);
+        XamlGenerator.setNavigationNamespace(this.page);
 
         // grid
         String[] rowSizes = {"50", "1*", "40"};
@@ -137,7 +138,7 @@ public class CompetenceView {
     }
     private void generateStudentBlock() {
         // student name
-        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "DemiBold", "Center", "Top");
+        Element textblock = XamlGenerator.getTextBlock(this.student.getName(), "32", "Normal", "SemiBold", "Center", "Top");
 
         textblock.setAttribute("Grid.Column", "1");
         textblock.setAttribute("Grid.Row", "0");
@@ -164,6 +165,10 @@ public class CompetenceView {
             Element effect = XamlGenerator.getEffect("Border");
             effect.addContent(XamlGenerator.getDropShadowEffect("15", "60", "0"));
             border.addContent(effect);
+
+            // interactivity
+            XamlGenerator.setXName(border, student.replace(" ", "_") + "_Border");
+            XamlGenerator.setXName(border, student.replace(" ", "_") + "_Text_Block");
 
             stack.addContent(border);
         }
@@ -197,21 +202,21 @@ public class CompetenceView {
 
             switch (competence.getName()) {
                 case "Communiceren":
-                    x = centerX - 90.0;y = canvasHeight - 35.0;
+                    x = centerX - 90.0;y = 35.0;
                     break;
                 case "Management":
-                    x = canvasWidth / 12.0;y = centerY - 60.0;
+                    x = canvasWidth / 12.0;y = centerY + 60.0;
                     break;
                 case "Implementatie":
                     x = centerX - 90.0;y = -10.0;
                     break;
                 case "AnalyseOntwerp":
-                    x = canvasWidth / 1.47;y = centerY - 60.0;
+                    x = canvasWidth / 1.47;y = centerY + 60.0;
                     break;
                 default:
                     x = 0;y=0;break;
             }
-            textblock.setAttribute("Canvas.Bottom", Double.toString(y));
+            textblock.setAttribute("Canvas.Top", Double.toString(canvasHeight - y));
             textblock.setAttribute("Canvas.Left", Double.toString(x));
 
             this.canvas.addContent(textblock);
@@ -252,9 +257,11 @@ public class CompetenceView {
         List<Competence> competences = new ArrayList<>();
         for (String student : this.students) {
             means.clear();
+            means.clear();
             competences.clear();
 
-            visibility = student.equals(this.student.getName()) ? "Visible" : "Collapsed";
+            // interactivity
+            visibility = "Collapsed";
 
             for (Competence competence : this.competences) {
                 competences.add(new Competence(competence.getName(), student, this.file));
@@ -262,13 +269,17 @@ public class CompetenceView {
 
             CompetenceUtilities.scaleMeans(usedCanvasWidth, usedCanvasHeight, competences, means);
             CompetenceUtilities.fillLine(centerX, centerY, -means.get(mng), -means.get(com),
-                    lines, darkgreen, dgThick, visibility);
+                    lines, darkgreen, dgThick, visibility,
+                    student.replace(" ", "_") + "_" + mng + "_" + com);
             CompetenceUtilities.fillLine(centerX, centerY, -means.get(mng), means.get(impl),
-                    lines, darkgreen, dgThick, visibility);
+                    lines, darkgreen, dgThick, visibility,
+                    student.replace(" ", "_") + "_" + mng + "_" + impl);
             CompetenceUtilities.fillLine(centerX, centerY, means.get(an), means.get(impl),
-                    lines, darkgreen, dgThick, visibility);
+                    lines, darkgreen, dgThick, visibility,
+                    student.replace(" ", "_") + "_" + an + "_" + impl);
             CompetenceUtilities.fillLine(centerX, centerY, means.get(an), -means.get(com),
-                    lines, darkgreen, dgThick, visibility);
+                    lines, darkgreen, dgThick, visibility,
+                    student.replace(" ", "_") + "_" + an + "_" + com);
         }
 
         this.canvas.addContent(lines);

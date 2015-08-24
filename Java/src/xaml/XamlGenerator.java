@@ -222,6 +222,9 @@ public class XamlGenerator {
     public static Element getPage() {
         return new Element("Page", getDefaultNamespace());
     }
+    public static Element getNavigationPage() {
+        return new Element("Page", getNavigationNamespace());
+    }
 
     /**
      * SCROLLVIEWER *
